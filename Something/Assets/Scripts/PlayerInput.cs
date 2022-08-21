@@ -8,6 +8,7 @@ public class PlayerInput : MonoBehaviour
     public float InputY { get; private set; }
     public float MouseX { get; private set; }
     public float MouseY { get; private set; }
+    public bool KeyDownE { get; private set; }
 
     void Start()
     {
@@ -15,6 +16,7 @@ public class PlayerInput : MonoBehaviour
         InputY = 0f;
         MouseX = 0f;
         MouseY = 0f;
+        KeyDownE = false;
     }
 
     void Update()
@@ -23,5 +25,6 @@ public class PlayerInput : MonoBehaviour
         InputY = Input.GetAxis("Vertical");
         MouseX = Input.GetAxis("Mouse X");
         MouseY = Input.GetAxis("Mouse Y");
+        KeyDownE = Input.GetKeyDown(KeyCode.E);
     }
 }
