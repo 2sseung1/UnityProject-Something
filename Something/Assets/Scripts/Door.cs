@@ -4,19 +4,56 @@ using UnityEngine;
 
 public class Door : MonoBehaviour, IInteractionObject
 {
-    public void Interacte()
+    private enum State
     {
-        Open();
-        Close();
+        Open,
+        Close
     }
 
-    private void Open()
+    [SerializeField]
+    private State DoorState;
+
+    private Animator _animator;
+
+    void Awake()
     {
-        Debug.Log("문이 열립니다.");
+        _animator = GetComponent<Animator>();
+    }
+
+    public void Interacte(Vector3 interactorPosition)
+    {
+        switch (DoorState)
+        {
+            case State.Open:
+                Close();
+                break;
+
+            case State.Close:
+                Open(interactorPosition);
+                break;
+        }
+    }
+
+    private void Open(Vector3 interactorPosition)
+    {
+        DoorState = State.Open;
+        _animator.SetInteger("State", (int)DoorState);
+
+        Vector3 toInteractor = (interactorPosition - transform.position).normalized;
+        if (0 <= Vector3.Dot(transform.forward, toInteractor))
+        {
+            _animator.SetInteger("Direction", 1);
+        }
+        else
+        {
+            _animator.SetInteger("Direction", -1);
+        }
     }
 
     private void Close()
     {
-        Debug.Log("문이 닫힙니다.");
+        DoorState = State.Close;
+        _animator.SetInteger("State", (int)DoorState);
+        _animator.SetInteger("Direction", 0);
     }
 }

@@ -16,10 +16,9 @@ public class Interactor : MonoBehaviour
         if (Physics.Raycast(RaycastPoint.transform.position, RaycastPoint.transform.forward, out _hit, RaycastDistance))
         {
             var hitObject = _hit.collider.GetComponent<IInteractionObject>();
-
             if (keyDownE && hitObject != null)
             {
-                hitObject.Interacte();
+                hitObject.Interacte(RaycastPoint.transform.position);
             }
         }
     }

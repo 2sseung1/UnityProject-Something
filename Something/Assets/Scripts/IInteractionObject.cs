@@ -1,4 +1,6 @@
+using UnityEngine;
+
 public interface IInteractionObject
 {
-    void Interacte();
+    void Interacte(Vector3 interactorPosition);
 }
