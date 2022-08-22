@@ -400,6 +400,7 @@
 "Assets/MyAsset/Flooded Grounds/Flooded_Grounds/PostProcessing/Editor/Utils/EditorResources.cs"
 "Assets/MyAsset/Flooded Grounds/Flooded_Grounds/PostProcessing/Editor/Utils/FxStyles.cs"
 "Assets/MyAsset/Flooded Grounds/Flooded_Grounds/PostProcessing/Editor/Utils/ReflectionUtils.cs"
+"Assets/MyAsset/TurboRename/Plugins/Editor/TurboRename.cs"
 -langversion:9.0
 
 /deterministic
