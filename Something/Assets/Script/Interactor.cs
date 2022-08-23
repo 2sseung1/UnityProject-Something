@@ -5,6 +5,7 @@ using UnityEngine;
 public class Interactor : MonoBehaviour
 {
     public Camera RaycastPoint;
+    public InventoryController InventoryController;
 
     [SerializeField]
     private float RaycastDistance;
@@ -19,6 +20,13 @@ public class Interactor : MonoBehaviour
             if (keyDownE && hitObject != null)
             {
                 hitObject.Interacte(RaycastPoint.transform.position);
+            }
+
+            var hitObject_ = _hit.collider.GetComponent<Item>();
+            if (keyDownE && hitObject_ != null)
+            {
+                InventoryController.ToSlot(hitObject_);
+                Debug.Log("æ∆¿Ã≈€ »πµÊ!");
             }
         }
     }

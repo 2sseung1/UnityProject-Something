@@ -2,7 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Key : MonoBehaviour
+public class Key : Item
 {
-    public string name;
+    public int GetValue { get { return Value; } }
+
+    [SerializeField]
+    private int Value;
 }
