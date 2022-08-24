@@ -10,7 +10,7 @@ public class PlayerInput : MonoBehaviour
     public float MouseX { get; private set; }
     public float MouseY { get; private set; }
 
-    public bool KeyDownE { get; private set; }
+    public UnityEvent KeyDown_E;
     public UnityEvent KeyDown_I;
 
     void Awake()
@@ -19,7 +19,6 @@ public class PlayerInput : MonoBehaviour
         InputY = 0f;
         MouseX = 0f;
         MouseY = 0f;
-        KeyDownE = false;
     }
 
     void Update()
@@ -28,7 +27,9 @@ public class PlayerInput : MonoBehaviour
         InputY = Input.GetAxis("Vertical");
         MouseX = Input.GetAxis("Mouse X");
         MouseY = Input.GetAxis("Mouse Y");
-        KeyDownE = Input.GetKeyDown(KeyCode.E);
+
+        if (Input.GetKeyDown(KeyCode.E))
+            KeyDown_E.Invoke();
 
         if (Input.GetKeyDown(KeyCode.I))
             KeyDown_I.Invoke();

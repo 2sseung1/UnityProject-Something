@@ -443,6 +443,7 @@
 "Assets/Script/Item.cs"
 "Assets/Script/Key.cs"
 "Assets/Script/KeyData.cs"
+"Assets/Script/ObjectChecker.cs"
 "Assets/Script/PlayerController.cs"
 "Assets/Script/PlayerInput.cs"
 "Assets/Script/PlayerMove.cs"

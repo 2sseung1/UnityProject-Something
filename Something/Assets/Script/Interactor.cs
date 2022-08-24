@@ -2,32 +2,29 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(ObjectChecker))]
 public class Interactor : MonoBehaviour
 {
-    public Camera RaycastPoint;
     public InventoryController InventoryController;
 
-    [SerializeField]
-    private float RaycastDistance;
+    private ObjectChecker _checker;
 
-    private RaycastHit _hit;
-
-    public void ObjectCheck(bool keyDownE)
+    void Awake()
     {
-        if (Physics.Raycast(RaycastPoint.transform.position, RaycastPoint.transform.forward, out _hit, RaycastDistance))
-        {
-            var hitObject = _hit.collider.GetComponent<IInteractionObject>();
-            if (keyDownE && hitObject != null)
-            {
-                hitObject.Interacte(RaycastPoint.transform.position);
-            }
+        _checker = GetComponent<ObjectChecker>();
+    }
 
-            var hitObject_ = _hit.collider.GetComponent<Item>();
-            if (keyDownE && hitObject_ != null)
-            {
-                InventoryController.ToSlot(hitObject_);
-                Debug.Log("æ∆¿Ã≈€ »πµÊ!");
-            }
+    public void InteracteObject()
+    {
+        if (_checker.Collision)
+        {
+            var interactionObject = _checker.HitTargetInfo.collider.GetComponent<IInteractionObject>();
+            if (interactionObject != null)
+                interactionObject.Interacte(transform.position);
+
+            var item = _checker.HitTargetInfo.collider.GetComponent<Item>();
+            if (item != null)
+                InventoryController.ToSlot(item);
         }
     }
 }
