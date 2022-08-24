@@ -12,12 +12,22 @@ public class Door : MonoBehaviour, IInteractionObject
 
     [SerializeField]
     private State DoorState;
+    [SerializeField]
+    private float RotateSpeed;
 
-    private Animator _animator;
+    private float _angleY;
+    private float _initialAngleY;
+    private float _openForwardMinAngleY;
+    private float _openBackwardMaxAngleY;
+    private WaitForFixedUpdate _waitForFixedUpdate;
 
     void Awake()
     {
-        _animator = GetComponent<Animator>();
+        _angleY = transform.eulerAngles.y;
+        _initialAngleY = _angleY;
+        _openForwardMinAngleY = _angleY - 90;
+        _openBackwardMaxAngleY = _angleY + 90;
+        _waitForFixedUpdate = new WaitForFixedUpdate();
     }
 
     public void Interacte(Vector3 interactorPosition)
@@ -36,24 +46,72 @@ public class Door : MonoBehaviour, IInteractionObject
 
     private void Open(Vector3 interactorPosition)
     {
+        StopAllCoroutines();
         DoorState = State.Open;
-        _animator.SetInteger("State", (int)DoorState);
 
         Vector3 toInteractor = (interactorPosition - transform.position).normalized;
         if (0 <= Vector3.Dot(transform.forward, toInteractor))
-        {
-            _animator.SetInteger("Direction", 1);
-        }
+            StartCoroutine(OpenForward());
         else
+            StartCoroutine(OpenBackward());
+    }
+
+    IEnumerator OpenForward()
+    {
+        while (_openForwardMinAngleY <= _angleY)
         {
-            _animator.SetInteger("Direction", -1);
+            _angleY -= RotateSpeed * Time.fixedDeltaTime;
+            Vector3 newRotation = new Vector3(0f, _angleY, 0f);
+            transform.rotation = Quaternion.Euler(newRotation);
+
+            yield return _waitForFixedUpdate;
+        }
+    }
+
+    IEnumerator OpenBackward()
+    {
+        while (_angleY < _openBackwardMaxAngleY)
+        {
+            _angleY += RotateSpeed * Time.fixedDeltaTime;
+            Vector3 newRotation = new Vector3(0f, _angleY, 0f);
+            transform.rotation = Quaternion.Euler(newRotation);
+
+            yield return _waitForFixedUpdate;
         }
     }
 
     private void Close()
     {
+        StopAllCoroutines();
         DoorState = State.Close;
-        _animator.SetInteger("State", (int)DoorState);
-        _animator.SetInteger("Direction", 0);
+
+        if (_angleY <= _initialAngleY)
+            StartCoroutine(CloseBackward());
+        else
+            StartCoroutine(CloseForward());
+    }
+
+    IEnumerator CloseForward()
+    {
+        while (_initialAngleY < _angleY)
+        {
+            _angleY -= RotateSpeed * Time.fixedDeltaTime;
+            Vector3 newRotation = new Vector3(0f, _angleY, 0f);
+            transform.rotation = Quaternion.Euler(newRotation);
+
+            yield return _waitForFixedUpdate;
+        }
+    }
+
+    IEnumerator CloseBackward()
+    {
+        while (_angleY <= _initialAngleY)
+        {
+            _angleY += RotateSpeed * Time.fixedDeltaTime;
+            Vector3 newRotation = new Vector3(0f, _angleY, 0f);
+            transform.rotation = Quaternion.Euler(newRotation);
+
+            yield return _waitForFixedUpdate;
+        }
     }
 }

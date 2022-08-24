@@ -34,15 +34,7 @@ public class InventoryController : MonoBehaviour
 
     public void ViewOnOff()
     {
-        if (ViewActive)
-        {
-            InventoryView.SetActive(false);
-        }
-        else
-        {
-            InventoryView.SetActive(true);
-        }
-
+        InventoryView.SetActive(!ViewActive);
         ViewActive = !ViewActive;
     }
 
