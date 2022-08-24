@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class InventoryController : MonoBehaviour
 {
@@ -8,6 +9,8 @@ public class InventoryController : MonoBehaviour
 
     [SerializeField]
     private GameObject InventoryView;
+    [SerializeField]
+    private Image InventoryViewImage;
     [SerializeField]
     private GameObject Slots;
 
@@ -17,12 +20,16 @@ public class InventoryController : MonoBehaviour
 
     void Awake()
     {
-        ViewActive = true;
         _slot = Slots.GetComponentsInChildren<InventorySlot>();
         _slotCount = 15;
         _nextSlotIndex = 0;
+    }
 
+    void Start()
+    {
+        ViewActive = true;
         ViewOnOff();
+        InventoryViewImage.enabled = true;
     }
 
     public void ViewOnOff()

@@ -9,10 +9,12 @@ public class InventorySlot : MonoBehaviour
     public Item Item { get; private set; }
 
     private Image _image;
+    private Color _newColor;
 
     void Awake()
     {
         _image = GetComponent<Image>();
+        _newColor = _image.color;
     }
 
     public void Setting(Item item)
@@ -20,5 +22,7 @@ public class InventorySlot : MonoBehaviour
         IsActive = true;
         Item = item;
         _image.sprite = item.GetItemSprite;
+        _newColor.a = 255;
+        _image.color = _newColor;
     }
 }
