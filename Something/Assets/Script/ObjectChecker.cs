@@ -5,18 +5,16 @@ using UnityEngine;
 public class ObjectChecker : MonoBehaviour
 {
     public Camera RaycastPoint;
-    public InventoryController InventoryController;
 
-    public bool Collision { get; private set; }
-    public RaycastHit HitTargetInfo { get { return _hit; } }
+    public RaycastHit HitInfo { get { return _hit; } }
 
     [SerializeField]
     private float RaycastDistance;
 
     private RaycastHit _hit;
 
-    public void ObjectCheck()
+    public bool ObjectCheck()
     {
-        Collision = Physics.Raycast(RaycastPoint.transform.position, RaycastPoint.transform.forward, out _hit, RaycastDistance);
+        return Physics.Raycast(RaycastPoint.transform.position, RaycastPoint.transform.forward, out _hit, RaycastDistance);
     }
 }
