@@ -449,6 +449,8 @@
 "Assets/Script/PlayerInteracte.cs"
 "Assets/Script/PlayerMove.cs"
 "Assets/Script/PlayerRotate.cs"
+"Assets/Script/SomethingController.cs"
+"Assets/Script/SomethingInteracte.cs"
 "Assets/Script/UIManager.cs"
 -langversion:9.0
 

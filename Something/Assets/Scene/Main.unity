@@ -122,7 +122,7 @@ NavMeshSettings:
     preserveTilesOutsideBounds: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 0}
+  m_NavMeshData: {fileID: 23800000, guid: a52ca59f744bc7e489a58a5b009de730, type: 2}
 --- !u!1001 &12158044
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -133,6 +133,10 @@ PrefabInstance:
     - target: {fileID: 189562, guid: eb76103868aa7dc4c8e39613a5835fb5, type: 3}
       propertyPath: m_Name
       value: Villa1_Base_Mid_A (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 189562, guid: eb76103868aa7dc4c8e39613a5835fb5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 471316, guid: eb76103868aa7dc4c8e39613a5835fb5, type: 3}
       propertyPath: m_RootOrder
@@ -188,6 +192,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Top_Mid_A (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 155946, guid: 419a8536db6f54646b66c61dcdf5a2d6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 431848, guid: 419a8536db6f54646b66c61dcdf5a2d6, type: 3}
       propertyPath: m_RootOrder
       value: 205
@@ -238,6 +246,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Wall_Mid_D (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 169490, guid: 3db4b54e649f80f4287b6ea21e0d14f2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 487350, guid: 3db4b54e649f80f4287b6ea21e0d14f2, type: 3}
       propertyPath: m_RootOrder
       value: 202
@@ -281,6 +293,81 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 487350, guid: 3db4b54e649f80f4287b6ea21e0d14f2, type: 3}
   m_PrefabInstance: {fileID: 14799749}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &27722656
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 27722659}
+  - component: {fileID: 27722658}
+  m_Layer: 0
+  m_Name: Camera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!20 &27722658
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 27722656}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 1
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &27722659
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 27722656}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1584227335}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &34867298
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -288,6 +375,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1270003300}
     m_Modifications:
+    - target: {fileID: 134796, guid: 3f7bd70355e6e0646aad871c1e7859b5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 462936, guid: 3f7bd70355e6e0646aad871c1e7859b5, type: 3}
       propertyPath: m_RootOrder
       value: 162
@@ -337,6 +428,10 @@ PrefabInstance:
     - target: {fileID: 146654, guid: b3697fca2cda39f418b6b897bcf90cf6, type: 3}
       propertyPath: m_Name
       value: Villa1_Wall_Int_A (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 146654, guid: b3697fca2cda39f418b6b897bcf90cf6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 418322, guid: b3697fca2cda39f418b6b897bcf90cf6, type: 3}
       propertyPath: m_RootOrder
@@ -388,6 +483,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Deco_Column_Top_A (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 173016, guid: 201c750a85d617249b8405c7d042da15, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 432244, guid: 201c750a85d617249b8405c7d042da15, type: 3}
       propertyPath: m_RootOrder
       value: 56
@@ -437,6 +536,10 @@ PrefabInstance:
     - target: {fileID: 118640, guid: 3f034e995143d7c48aceeca0168460c0, type: 3}
       propertyPath: m_Name
       value: Villa1_Deco_Handrail1_Mid_A (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 118640, guid: 3f034e995143d7c48aceeca0168460c0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 468246, guid: 3f034e995143d7c48aceeca0168460c0, type: 3}
       propertyPath: m_RootOrder
@@ -488,6 +591,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Deco_Handrail1_Mid_A (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 118640, guid: 3f034e995143d7c48aceeca0168460c0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 468246, guid: 3f034e995143d7c48aceeca0168460c0, type: 3}
       propertyPath: m_RootOrder
       value: 143
@@ -537,6 +644,10 @@ PrefabInstance:
     - target: {fileID: 127886, guid: f75c1a412cade5e44931c36aad22a16c, type: 3}
       propertyPath: m_Name
       value: Villa1_Wall_Cor_A (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 127886, guid: f75c1a412cade5e44931c36aad22a16c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 423736, guid: f75c1a412cade5e44931c36aad22a16c, type: 3}
       propertyPath: m_RootOrder
@@ -596,6 +707,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Base_Cor_A (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 162124, guid: 78a0483eabda41a40ab66ec11a4434a4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 454628, guid: 78a0483eabda41a40ab66ec11a4434a4, type: 3}
       propertyPath: m_RootOrder
       value: 182
@@ -649,6 +764,10 @@ PrefabInstance:
     - target: {fileID: 132996, guid: 5d6e0b09bf6588c4194b0574def66713, type: 3}
       propertyPath: m_Name
       value: Villa1_Wall_Mid_A (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 132996, guid: 5d6e0b09bf6588c4194b0574def66713, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 433038, guid: 5d6e0b09bf6588c4194b0574def66713, type: 3}
       propertyPath: m_RootOrder
@@ -882,6 +1001,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Deco_Beam_A (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 189904, guid: 909999d1c675e9141bd20febde2629f0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 480370, guid: 909999d1c675e9141bd20febde2629f0, type: 3}
       propertyPath: m_RootOrder
       value: 97
@@ -997,7 +1120,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &102902227
 PrefabInstance:
@@ -1009,6 +1132,10 @@ PrefabInstance:
     - target: {fileID: 131154, guid: 5296e314f038d5946b1e87c49325871e, type: 3}
       propertyPath: m_Name
       value: Villa1_Deco_Column_Mid_A (42)
+      objectReference: {fileID: 0}
+    - target: {fileID: 131154, guid: 5296e314f038d5946b1e87c49325871e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 458972, guid: 5296e314f038d5946b1e87c49325871e, type: 3}
       propertyPath: m_RootOrder
@@ -1056,6 +1183,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1270003300}
     m_Modifications:
+    - target: {fileID: 156820, guid: e268c3025a2a0864f9c404b68a8cedcd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 454854, guid: e268c3025a2a0864f9c404b68a8cedcd, type: 3}
       propertyPath: m_RootOrder
       value: 237
@@ -1105,6 +1236,10 @@ PrefabInstance:
     - target: {fileID: 127886, guid: f75c1a412cade5e44931c36aad22a16c, type: 3}
       propertyPath: m_Name
       value: Villa1_Wall_Cor_A (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 127886, guid: f75c1a412cade5e44931c36aad22a16c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 423736, guid: f75c1a412cade5e44931c36aad22a16c, type: 3}
       propertyPath: m_RootOrder
@@ -1160,6 +1295,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Top_Mid_A (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 155946, guid: 419a8536db6f54646b66c61dcdf5a2d6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 431848, guid: 419a8536db6f54646b66c61dcdf5a2d6, type: 3}
       propertyPath: m_RootOrder
       value: 89
@@ -1214,6 +1353,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Floor_Mid_B (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 161186, guid: 6a62bff5fa244c447b5f2c5eea538a98, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 457668, guid: 6a62bff5fa244c447b5f2c5eea538a98, type: 3}
       propertyPath: m_RootOrder
       value: 139
@@ -1263,6 +1406,10 @@ PrefabInstance:
     - target: {fileID: 131154, guid: 5296e314f038d5946b1e87c49325871e, type: 3}
       propertyPath: m_Name
       value: Villa1_Deco_Column_Mid_A (41)
+      objectReference: {fileID: 0}
+    - target: {fileID: 131154, guid: 5296e314f038d5946b1e87c49325871e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 458972, guid: 5296e314f038d5946b1e87c49325871e, type: 3}
       propertyPath: m_RootOrder
@@ -1314,6 +1461,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Floor_Mid_B (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 161186, guid: 6a62bff5fa244c447b5f2c5eea538a98, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 457668, guid: 6a62bff5fa244c447b5f2c5eea538a98, type: 3}
       propertyPath: m_RootOrder
       value: 223
@@ -1363,6 +1514,10 @@ PrefabInstance:
     - target: {fileID: 155946, guid: 419a8536db6f54646b66c61dcdf5a2d6, type: 3}
       propertyPath: m_Name
       value: Villa1_Top_Mid_A (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 155946, guid: 419a8536db6f54646b66c61dcdf5a2d6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 431848, guid: 419a8536db6f54646b66c61dcdf5a2d6, type: 3}
       propertyPath: m_RootOrder
@@ -1418,6 +1573,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Roof_Mid_A (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 146000, guid: 6c1222a5c1b101d4b8780debc7845431, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 462742, guid: 6c1222a5c1b101d4b8780debc7845431, type: 3}
       propertyPath: m_RootOrder
       value: 201
@@ -1467,6 +1626,10 @@ PrefabInstance:
     - target: {fileID: 127886, guid: f75c1a412cade5e44931c36aad22a16c, type: 3}
       propertyPath: m_Name
       value: Villa1_Wall_Cor_A (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 127886, guid: f75c1a412cade5e44931c36aad22a16c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 423736, guid: f75c1a412cade5e44931c36aad22a16c, type: 3}
       propertyPath: m_RootOrder
@@ -1566,6 +1729,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Door A (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2434404526089133046, guid: dc410243c00bb9a4fa9b18d5e86b0b77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2434404526091098783, guid: dc410243c00bb9a4fa9b18d5e86b0b77, type: 3}
       propertyPath: DoorState
       value: 1
@@ -1592,6 +1759,10 @@ PrefabInstance:
     - target: {fileID: 131154, guid: 5296e314f038d5946b1e87c49325871e, type: 3}
       propertyPath: m_Name
       value: Villa1_Deco_Column_Mid_A (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 131154, guid: 5296e314f038d5946b1e87c49325871e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 458972, guid: 5296e314f038d5946b1e87c49325871e, type: 3}
       propertyPath: m_RootOrder
@@ -1643,6 +1814,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Deco_Handrail1_Mid_A (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 118640, guid: 3f034e995143d7c48aceeca0168460c0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 468246, guid: 3f034e995143d7c48aceeca0168460c0, type: 3}
       propertyPath: m_RootOrder
       value: 248
@@ -1693,6 +1868,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Roof_Mid_A (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 146000, guid: 6c1222a5c1b101d4b8780debc7845431, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 462742, guid: 6c1222a5c1b101d4b8780debc7845431, type: 3}
       propertyPath: m_RootOrder
       value: 118
@@ -1739,6 +1918,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1270003300}
     m_Modifications:
+    - target: {fileID: 155428, guid: 0629b26a98ce01a46b7bf9348c41bb30, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 434818, guid: 0629b26a98ce01a46b7bf9348c41bb30, type: 3}
       propertyPath: m_RootOrder
       value: 206
@@ -1789,6 +1972,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1270003300}
     m_Modifications:
+    - target: {fileID: 155428, guid: 0629b26a98ce01a46b7bf9348c41bb30, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 434818, guid: 0629b26a98ce01a46b7bf9348c41bb30, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -1843,6 +2030,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Floor_Mid_A_4x (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 156820, guid: e268c3025a2a0864f9c404b68a8cedcd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 454854, guid: e268c3025a2a0864f9c404b68a8cedcd, type: 3}
       propertyPath: m_RootOrder
       value: 147
@@ -1892,6 +2083,10 @@ PrefabInstance:
     - target: {fileID: 118640, guid: 3f034e995143d7c48aceeca0168460c0, type: 3}
       propertyPath: m_Name
       value: Villa1_Deco_Handrail1_Mid_A (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 118640, guid: 3f034e995143d7c48aceeca0168460c0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 468246, guid: 3f034e995143d7c48aceeca0168460c0, type: 3}
       propertyPath: m_RootOrder
@@ -1943,6 +2138,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Wall_Int_A (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 146654, guid: b3697fca2cda39f418b6b897bcf90cf6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 418322, guid: b3697fca2cda39f418b6b897bcf90cf6, type: 3}
       propertyPath: m_RootOrder
       value: 225
@@ -1992,6 +2191,10 @@ PrefabInstance:
     - target: {fileID: 161186, guid: 6a62bff5fa244c447b5f2c5eea538a98, type: 3}
       propertyPath: m_Name
       value: Villa1_Floor_Mid_B (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 161186, guid: 6a62bff5fa244c447b5f2c5eea538a98, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 457668, guid: 6a62bff5fa244c447b5f2c5eea538a98, type: 3}
       propertyPath: m_RootOrder
@@ -2043,6 +2246,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Deco_Column_Mid_A (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 131154, guid: 5296e314f038d5946b1e87c49325871e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 458972, guid: 5296e314f038d5946b1e87c49325871e, type: 3}
       propertyPath: m_RootOrder
       value: 104
@@ -2092,6 +2299,10 @@ PrefabInstance:
     - target: {fileID: 118640, guid: 3f034e995143d7c48aceeca0168460c0, type: 3}
       propertyPath: m_Name
       value: Villa1_Deco_Handrail1_Mid_A (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 118640, guid: 3f034e995143d7c48aceeca0168460c0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 468246, guid: 3f034e995143d7c48aceeca0168460c0, type: 3}
       propertyPath: m_RootOrder
@@ -2143,6 +2354,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1270003300}
     m_Modifications:
+    - target: {fileID: 155428, guid: 0629b26a98ce01a46b7bf9348c41bb30, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 434818, guid: 0629b26a98ce01a46b7bf9348c41bb30, type: 3}
       propertyPath: m_RootOrder
       value: 239
@@ -2197,6 +2412,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Base_Stairs_A (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 154634, guid: 35a756c42404b894ea8cc2e61487fabb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 426776, guid: 35a756c42404b894ea8cc2e61487fabb, type: 3}
       propertyPath: m_RootOrder
       value: 90
@@ -2246,6 +2465,10 @@ PrefabInstance:
     - target: {fileID: 189562, guid: eb76103868aa7dc4c8e39613a5835fb5, type: 3}
       propertyPath: m_Name
       value: Villa1_Base_Mid_A (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 189562, guid: eb76103868aa7dc4c8e39613a5835fb5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 471316, guid: eb76103868aa7dc4c8e39613a5835fb5, type: 3}
       propertyPath: m_RootOrder
@@ -2390,6 +2613,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Roof_Mid_A (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 146000, guid: 6c1222a5c1b101d4b8780debc7845431, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 462742, guid: 6c1222a5c1b101d4b8780debc7845431, type: 3}
       propertyPath: m_RootOrder
       value: 84
@@ -2436,6 +2663,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1270003300}
     m_Modifications:
+    - target: {fileID: 155428, guid: 0629b26a98ce01a46b7bf9348c41bb30, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 434818, guid: 0629b26a98ce01a46b7bf9348c41bb30, type: 3}
       propertyPath: m_RootOrder
       value: 49
@@ -2490,6 +2721,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Deco_Column_Mid_A (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 131154, guid: 5296e314f038d5946b1e87c49325871e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 458972, guid: 5296e314f038d5946b1e87c49325871e, type: 3}
       propertyPath: m_RootOrder
       value: 138
@@ -2540,6 +2775,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Floor_Mid_A_4x (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 156820, guid: e268c3025a2a0864f9c404b68a8cedcd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 454854, guid: e268c3025a2a0864f9c404b68a8cedcd, type: 3}
       propertyPath: m_RootOrder
       value: 212
@@ -2586,6 +2825,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1270003300}
     m_Modifications:
+    - target: {fileID: 155428, guid: 0629b26a98ce01a46b7bf9348c41bb30, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 434818, guid: 0629b26a98ce01a46b7bf9348c41bb30, type: 3}
       propertyPath: m_RootOrder
       value: 32
@@ -2729,6 +2972,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Wall_Mid_A (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 132996, guid: 5d6e0b09bf6588c4194b0574def66713, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 433038, guid: 5d6e0b09bf6588c4194b0574def66713, type: 3}
       propertyPath: m_RootOrder
       value: 168
@@ -2783,6 +3030,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Floor_Mid_A_4x (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 156820, guid: e268c3025a2a0864f9c404b68a8cedcd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 454854, guid: e268c3025a2a0864f9c404b68a8cedcd, type: 3}
       propertyPath: m_RootOrder
       value: 203
@@ -2832,6 +3083,10 @@ PrefabInstance:
     - target: {fileID: 156820, guid: e268c3025a2a0864f9c404b68a8cedcd, type: 3}
       propertyPath: m_Name
       value: Villa1_Floor_Mid_A_4x (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 156820, guid: e268c3025a2a0864f9c404b68a8cedcd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 454854, guid: e268c3025a2a0864f9c404b68a8cedcd, type: 3}
       propertyPath: m_RootOrder
@@ -2883,6 +3138,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Roof_Mid_B (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 188474, guid: e479fb829761ad7408092fe346314659, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 453718, guid: e479fb829761ad7408092fe346314659, type: 3}
       propertyPath: m_RootOrder
       value: 79
@@ -2933,6 +3192,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Floor_Mid_A_4x (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 156820, guid: e268c3025a2a0864f9c404b68a8cedcd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 454854, guid: e268c3025a2a0864f9c404b68a8cedcd, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -2982,6 +3245,10 @@ PrefabInstance:
     - target: {fileID: 189562, guid: eb76103868aa7dc4c8e39613a5835fb5, type: 3}
       propertyPath: m_Name
       value: Villa1_Base_Mid_A (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 189562, guid: eb76103868aa7dc4c8e39613a5835fb5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 471316, guid: eb76103868aa7dc4c8e39613a5835fb5, type: 3}
       propertyPath: m_RootOrder
@@ -3036,6 +3303,10 @@ PrefabInstance:
     - target: {fileID: 182084, guid: 1893b7edd0ad11b4e9f6f17eeb9455b6, type: 3}
       propertyPath: m_Name
       value: Villa1_Floor_Mid_A (164)
+      objectReference: {fileID: 0}
+    - target: {fileID: 182084, guid: 1893b7edd0ad11b4e9f6f17eeb9455b6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 480730, guid: 1893b7edd0ad11b4e9f6f17eeb9455b6, type: 3}
       propertyPath: m_RootOrder
@@ -3164,6 +3435,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Deco_Handrail1_Mid_A (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 118640, guid: 3f034e995143d7c48aceeca0168460c0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 468246, guid: 3f034e995143d7c48aceeca0168460c0, type: 3}
       propertyPath: m_RootOrder
       value: 177
@@ -3213,6 +3488,10 @@ PrefabInstance:
     - target: {fileID: 118640, guid: 3f034e995143d7c48aceeca0168460c0, type: 3}
       propertyPath: m_Name
       value: Villa1_Deco_Handrail1_Mid_A (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 118640, guid: 3f034e995143d7c48aceeca0168460c0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 468246, guid: 3f034e995143d7c48aceeca0168460c0, type: 3}
       propertyPath: m_RootOrder
@@ -3264,6 +3543,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Deco_Column_Mid_A (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 131154, guid: 5296e314f038d5946b1e87c49325871e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 458972, guid: 5296e314f038d5946b1e87c49325871e, type: 3}
       propertyPath: m_RootOrder
       value: 245
@@ -3314,6 +3597,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Deco_Column_Mid_A (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 131154, guid: 5296e314f038d5946b1e87c49325871e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 458972, guid: 5296e314f038d5946b1e87c49325871e, type: 3}
       propertyPath: m_RootOrder
       value: 63
@@ -3363,6 +3650,10 @@ PrefabInstance:
     - target: {fileID: 189562, guid: eb76103868aa7dc4c8e39613a5835fb5, type: 3}
       propertyPath: m_Name
       value: Villa1_Base_Mid_A (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 189562, guid: eb76103868aa7dc4c8e39613a5835fb5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 471316, guid: eb76103868aa7dc4c8e39613a5835fb5, type: 3}
       propertyPath: m_RootOrder
@@ -3418,6 +3709,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Deco_Handrail1_Cap_A (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 176728, guid: 19c68d79f0c9834478587f0dc3a6d944, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 482060, guid: 19c68d79f0c9834478587f0dc3a6d944, type: 3}
       propertyPath: m_RootOrder
       value: 166
@@ -3467,6 +3762,10 @@ PrefabInstance:
     - target: {fileID: 162124, guid: 78a0483eabda41a40ab66ec11a4434a4, type: 3}
       propertyPath: m_Name
       value: Villa1_Base_Cor_A (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 162124, guid: 78a0483eabda41a40ab66ec11a4434a4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 454628, guid: 78a0483eabda41a40ab66ec11a4434a4, type: 3}
       propertyPath: m_RootOrder
@@ -3518,6 +3817,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Roof_Mid_A (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 146000, guid: 6c1222a5c1b101d4b8780debc7845431, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 462742, guid: 6c1222a5c1b101d4b8780debc7845431, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -3567,6 +3870,10 @@ PrefabInstance:
     - target: {fileID: 127886, guid: f75c1a412cade5e44931c36aad22a16c, type: 3}
       propertyPath: m_Name
       value: Villa1_Wall_Cor_A (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 127886, guid: f75c1a412cade5e44931c36aad22a16c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 423736, guid: f75c1a412cade5e44931c36aad22a16c, type: 3}
       propertyPath: m_RootOrder
@@ -3622,6 +3929,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Wall_Int_B (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 134796, guid: 3f7bd70355e6e0646aad871c1e7859b5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 462936, guid: 3f7bd70355e6e0646aad871c1e7859b5, type: 3}
       propertyPath: m_RootOrder
       value: 106
@@ -3671,6 +3982,10 @@ PrefabInstance:
     - target: {fileID: 132996, guid: 5d6e0b09bf6588c4194b0574def66713, type: 3}
       propertyPath: m_Name
       value: Villa1_Wall_Mid_A (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 132996, guid: 5d6e0b09bf6588c4194b0574def66713, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 433038, guid: 5d6e0b09bf6588c4194b0574def66713, type: 3}
       propertyPath: m_RootOrder
@@ -3726,6 +4041,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Deco_Handrail1_Mid_A (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 118640, guid: 3f034e995143d7c48aceeca0168460c0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 468246, guid: 3f034e995143d7c48aceeca0168460c0, type: 3}
       propertyPath: m_RootOrder
       value: 108
@@ -3776,6 +4095,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Top_Mid_A (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 155946, guid: 419a8536db6f54646b66c61dcdf5a2d6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 431848, guid: 419a8536db6f54646b66c61dcdf5a2d6, type: 3}
       propertyPath: m_RootOrder
       value: 73
@@ -3825,6 +4148,10 @@ PrefabInstance:
     - target: {fileID: 173016, guid: 201c750a85d617249b8405c7d042da15, type: 3}
       propertyPath: m_Name
       value: Villa1_Deco_Column_Top_A (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 173016, guid: 201c750a85d617249b8405c7d042da15, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 432244, guid: 201c750a85d617249b8405c7d042da15, type: 3}
       propertyPath: m_RootOrder
@@ -3924,6 +4251,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Wall_Mid_D (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 169490, guid: 3db4b54e649f80f4287b6ea21e0d14f2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 487350, guid: 3db4b54e649f80f4287b6ea21e0d14f2, type: 3}
       propertyPath: m_RootOrder
       value: 102
@@ -3977,6 +4308,10 @@ PrefabInstance:
     - target: {fileID: 127886, guid: f75c1a412cade5e44931c36aad22a16c, type: 3}
       propertyPath: m_Name
       value: Villa1_Wall_Cor_A (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 127886, guid: f75c1a412cade5e44931c36aad22a16c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 423736, guid: f75c1a412cade5e44931c36aad22a16c, type: 3}
       propertyPath: m_RootOrder
@@ -4036,6 +4371,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Top_Cor_A (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 110932, guid: c07e4a61a403f6c4d9c06befc65876fd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 436576, guid: c07e4a61a403f6c4d9c06befc65876fd, type: 3}
       propertyPath: m_RootOrder
       value: 103
@@ -4085,6 +4424,10 @@ PrefabInstance:
     - target: {fileID: 189562, guid: eb76103868aa7dc4c8e39613a5835fb5, type: 3}
       propertyPath: m_Name
       value: Villa1_Base_Mid_A (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 189562, guid: eb76103868aa7dc4c8e39613a5835fb5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 471316, guid: eb76103868aa7dc4c8e39613a5835fb5, type: 3}
       propertyPath: m_RootOrder
@@ -4139,6 +4482,10 @@ PrefabInstance:
     - target: {fileID: 176728, guid: 19c68d79f0c9834478587f0dc3a6d944, type: 3}
       propertyPath: m_Name
       value: Villa1_Deco_Handrail1_Cap_A (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 176728, guid: 19c68d79f0c9834478587f0dc3a6d944, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 482060, guid: 19c68d79f0c9834478587f0dc3a6d944, type: 3}
       propertyPath: m_RootOrder
@@ -4279,6 +4626,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Deco_Handrail1_Cap_A (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 176728, guid: 19c68d79f0c9834478587f0dc3a6d944, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 482060, guid: 19c68d79f0c9834478587f0dc3a6d944, type: 3}
       propertyPath: m_RootOrder
       value: 135
@@ -4328,6 +4679,10 @@ PrefabInstance:
     - target: {fileID: 161186, guid: 6a62bff5fa244c447b5f2c5eea538a98, type: 3}
       propertyPath: m_Name
       value: Villa1_Floor_Mid_B (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 161186, guid: 6a62bff5fa244c447b5f2c5eea538a98, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 457668, guid: 6a62bff5fa244c447b5f2c5eea538a98, type: 3}
       propertyPath: m_RootOrder
@@ -4379,6 +4734,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Deco_Beam_A (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 189904, guid: 909999d1c675e9141bd20febde2629f0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 480370, guid: 909999d1c675e9141bd20febde2629f0, type: 3}
       propertyPath: m_RootOrder
       value: 20
@@ -4428,6 +4787,10 @@ PrefabInstance:
     - target: {fileID: 132996, guid: 5d6e0b09bf6588c4194b0574def66713, type: 3}
       propertyPath: m_Name
       value: Villa1_Wall_Mid_A (51)
+      objectReference: {fileID: 0}
+    - target: {fileID: 132996, guid: 5d6e0b09bf6588c4194b0574def66713, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 433038, guid: 5d6e0b09bf6588c4194b0574def66713, type: 3}
       propertyPath: m_RootOrder
@@ -4483,6 +4846,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Wall_Int_A (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 146654, guid: b3697fca2cda39f418b6b897bcf90cf6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 418322, guid: b3697fca2cda39f418b6b897bcf90cf6, type: 3}
       propertyPath: m_RootOrder
       value: 152
@@ -4532,6 +4899,10 @@ PrefabInstance:
     - target: {fileID: 189562, guid: eb76103868aa7dc4c8e39613a5835fb5, type: 3}
       propertyPath: m_Name
       value: Villa1_Base_Mid_A (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 189562, guid: eb76103868aa7dc4c8e39613a5835fb5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 471316, guid: eb76103868aa7dc4c8e39613a5835fb5, type: 3}
       propertyPath: m_RootOrder
@@ -4587,6 +4958,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Floor_Mid_A (144)
       objectReference: {fileID: 0}
+    - target: {fileID: 182084, guid: 1893b7edd0ad11b4e9f6f17eeb9455b6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 480730, guid: 1893b7edd0ad11b4e9f6f17eeb9455b6, type: 3}
       propertyPath: m_RootOrder
       value: 30
@@ -4636,6 +5011,10 @@ PrefabInstance:
     - target: {fileID: 146000, guid: 6c1222a5c1b101d4b8780debc7845431, type: 3}
       propertyPath: m_Name
       value: Villa1_Roof_Mid_A (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 146000, guid: 6c1222a5c1b101d4b8780debc7845431, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 462742, guid: 6c1222a5c1b101d4b8780debc7845431, type: 3}
       propertyPath: m_RootOrder
@@ -4687,6 +5066,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Floor_Mid_B (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 161186, guid: 6a62bff5fa244c447b5f2c5eea538a98, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 457668, guid: 6a62bff5fa244c447b5f2c5eea538a98, type: 3}
       propertyPath: m_RootOrder
       value: 149
@@ -4736,6 +5119,10 @@ PrefabInstance:
     - target: {fileID: 132996, guid: 5d6e0b09bf6588c4194b0574def66713, type: 3}
       propertyPath: m_Name
       value: Villa1_Wall_Mid_A (42)
+      objectReference: {fileID: 0}
+    - target: {fileID: 132996, guid: 5d6e0b09bf6588c4194b0574def66713, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 433038, guid: 5d6e0b09bf6588c4194b0574def66713, type: 3}
       propertyPath: m_RootOrder
@@ -4791,6 +5178,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Floor_Mid_A_4x (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 156820, guid: e268c3025a2a0864f9c404b68a8cedcd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 454854, guid: e268c3025a2a0864f9c404b68a8cedcd, type: 3}
       propertyPath: m_RootOrder
       value: 229
@@ -4840,6 +5231,10 @@ PrefabInstance:
     - target: {fileID: 189562, guid: eb76103868aa7dc4c8e39613a5835fb5, type: 3}
       propertyPath: m_Name
       value: Villa1_Base_Mid_A (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 189562, guid: eb76103868aa7dc4c8e39613a5835fb5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 471316, guid: eb76103868aa7dc4c8e39613a5835fb5, type: 3}
       propertyPath: m_RootOrder
@@ -5073,6 +5468,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Wall_Int_B (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 134796, guid: 3f7bd70355e6e0646aad871c1e7859b5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 462936, guid: 3f7bd70355e6e0646aad871c1e7859b5, type: 3}
       propertyPath: m_RootOrder
       value: 242
@@ -5122,6 +5521,10 @@ PrefabInstance:
     - target: {fileID: 162016, guid: 113eb02b1f4058248bf628b2fde16564, type: 3}
       propertyPath: m_Name
       value: Villa1_Base_Mid_B (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 162016, guid: 113eb02b1f4058248bf628b2fde16564, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 417482, guid: 113eb02b1f4058248bf628b2fde16564, type: 3}
       propertyPath: m_RootOrder
@@ -5173,6 +5576,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Floor_Mid_A (151)
       objectReference: {fileID: 0}
+    - target: {fileID: 182084, guid: 1893b7edd0ad11b4e9f6f17eeb9455b6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 480730, guid: 1893b7edd0ad11b4e9f6f17eeb9455b6, type: 3}
       propertyPath: m_RootOrder
       value: 156
@@ -5223,6 +5630,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Floor_Mid_A (143)
       objectReference: {fileID: 0}
+    - target: {fileID: 182084, guid: 1893b7edd0ad11b4e9f6f17eeb9455b6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 480730, guid: 1893b7edd0ad11b4e9f6f17eeb9455b6, type: 3}
       propertyPath: m_RootOrder
       value: 68
@@ -5272,6 +5683,10 @@ PrefabInstance:
     - target: {fileID: 189562, guid: eb76103868aa7dc4c8e39613a5835fb5, type: 3}
       propertyPath: m_Name
       value: Villa1_Base_Mid_A (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 189562, guid: eb76103868aa7dc4c8e39613a5835fb5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 471316, guid: eb76103868aa7dc4c8e39613a5835fb5, type: 3}
       propertyPath: m_RootOrder
@@ -5326,6 +5741,10 @@ PrefabInstance:
     - target: {fileID: 127886, guid: f75c1a412cade5e44931c36aad22a16c, type: 3}
       propertyPath: m_Name
       value: Villa1_Wall_Cor_A (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 127886, guid: f75c1a412cade5e44931c36aad22a16c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 423736, guid: f75c1a412cade5e44931c36aad22a16c, type: 3}
       propertyPath: m_RootOrder
@@ -5465,6 +5884,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Wall_Mid_C (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 102854, guid: 1eb7717755343d844afec811c03c3ba2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 452144, guid: 1eb7717755343d844afec811c03c3ba2, type: 3}
       propertyPath: m_RootOrder
       value: 45
@@ -5519,6 +5942,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Wall_Int_A (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 146654, guid: b3697fca2cda39f418b6b897bcf90cf6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 418322, guid: b3697fca2cda39f418b6b897bcf90cf6, type: 3}
       propertyPath: m_RootOrder
       value: 13
@@ -5568,6 +5995,10 @@ PrefabInstance:
     - target: {fileID: 161186, guid: 6a62bff5fa244c447b5f2c5eea538a98, type: 3}
       propertyPath: m_Name
       value: Villa1_Floor_Mid_B (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 161186, guid: 6a62bff5fa244c447b5f2c5eea538a98, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 457668, guid: 6a62bff5fa244c447b5f2c5eea538a98, type: 3}
       propertyPath: m_RootOrder
@@ -5718,6 +6149,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Top_Mid_A (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 155946, guid: 419a8536db6f54646b66c61dcdf5a2d6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 431848, guid: 419a8536db6f54646b66c61dcdf5a2d6, type: 3}
       propertyPath: m_RootOrder
       value: 171
@@ -5767,6 +6202,10 @@ PrefabInstance:
     - target: {fileID: 127886, guid: f75c1a412cade5e44931c36aad22a16c, type: 3}
       propertyPath: m_Name
       value: Villa1_Wall_Cor_A (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 127886, guid: f75c1a412cade5e44931c36aad22a16c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 423736, guid: f75c1a412cade5e44931c36aad22a16c, type: 3}
       propertyPath: m_RootOrder
@@ -5822,6 +6261,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Deco_Handrail1_Mid_A (37)
       objectReference: {fileID: 0}
+    - target: {fileID: 118640, guid: 3f034e995143d7c48aceeca0168460c0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 468246, guid: 3f034e995143d7c48aceeca0168460c0, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -5872,6 +6315,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Deco_Handrail1_Cap_A (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 176728, guid: 19c68d79f0c9834478587f0dc3a6d944, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 482060, guid: 19c68d79f0c9834478587f0dc3a6d944, type: 3}
       propertyPath: m_RootOrder
       value: 154
@@ -5916,27 +6363,39 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1270003300}
     m_Modifications:
+    - target: {fileID: 110066, guid: a11e981b37ff86749a7a41b2999e3199, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 165168, guid: a11e981b37ff86749a7a41b2999e3199, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 172672, guid: a11e981b37ff86749a7a41b2999e3199, type: 3}
       propertyPath: m_Name
       value: Table
       objectReference: {fileID: 0}
+    - target: {fileID: 172672, guid: a11e981b37ff86749a7a41b2999e3199, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 429048, guid: a11e981b37ff86749a7a41b2999e3199, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 251
       objectReference: {fileID: 0}
     - target: {fileID: 429048, guid: a11e981b37ff86749a7a41b2999e3199, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 651.798
+      value: 17.497986
       objectReference: {fileID: 0}
     - target: {fileID: 429048, guid: a11e981b37ff86749a7a41b2999e3199, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 17.798807
+      value: 0.9988079
       objectReference: {fileID: 0}
     - target: {fileID: 429048, guid: a11e981b37ff86749a7a41b2999e3199, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 501.73
+      value: 6.730011
       objectReference: {fileID: 0}
     - target: {fileID: 429048, guid: a11e981b37ff86749a7a41b2999e3199, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5944,15 +6403,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 429048, guid: a11e981b37ff86749a7a41b2999e3199, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 429048, guid: a11e981b37ff86749a7a41b2999e3199, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 429048, guid: a11e981b37ff86749a7a41b2999e3199, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 429048, guid: a11e981b37ff86749a7a41b2999e3199, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -5968,6 +6427,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a11e981b37ff86749a7a41b2999e3199, type: 3}
+--- !u!4 &765798068 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 429048, guid: a11e981b37ff86749a7a41b2999e3199, type: 3}
+  m_PrefabInstance: {fileID: 765798067}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &776777820
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5978,6 +6442,10 @@ PrefabInstance:
     - target: {fileID: 189562, guid: eb76103868aa7dc4c8e39613a5835fb5, type: 3}
       propertyPath: m_Name
       value: Villa1_Base_Mid_A (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 189562, guid: eb76103868aa7dc4c8e39613a5835fb5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 471316, guid: eb76103868aa7dc4c8e39613a5835fb5, type: 3}
       propertyPath: m_RootOrder
@@ -6033,6 +6501,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1270003300}
     m_Modifications:
+    - target: {fileID: 155428, guid: 0629b26a98ce01a46b7bf9348c41bb30, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 434818, guid: 0629b26a98ce01a46b7bf9348c41bb30, type: 3}
       propertyPath: m_RootOrder
       value: 92
@@ -6087,6 +6559,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Floor_Mid_A (83)
       objectReference: {fileID: 0}
+    - target: {fileID: 182084, guid: 1893b7edd0ad11b4e9f6f17eeb9455b6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 480730, guid: 1893b7edd0ad11b4e9f6f17eeb9455b6, type: 3}
       propertyPath: m_RootOrder
       value: 160
@@ -6136,6 +6612,10 @@ PrefabInstance:
     - target: {fileID: 182084, guid: 1893b7edd0ad11b4e9f6f17eeb9455b6, type: 3}
       propertyPath: m_Name
       value: Villa1_Floor_Mid_A (165)
+      objectReference: {fileID: 0}
+    - target: {fileID: 182084, guid: 1893b7edd0ad11b4e9f6f17eeb9455b6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 480730, guid: 1893b7edd0ad11b4e9f6f17eeb9455b6, type: 3}
       propertyPath: m_RootOrder
@@ -6191,6 +6671,10 @@ PrefabInstance:
     - target: {fileID: 182084, guid: 1893b7edd0ad11b4e9f6f17eeb9455b6, type: 3}
       propertyPath: m_Name
       value: Villa1_Floor_Mid_A (132)
+      objectReference: {fileID: 0}
+    - target: {fileID: 182084, guid: 1893b7edd0ad11b4e9f6f17eeb9455b6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 480730, guid: 1893b7edd0ad11b4e9f6f17eeb9455b6, type: 3}
       propertyPath: m_RootOrder
@@ -6420,6 +6904,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Wall_Cor_A (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 127886, guid: f75c1a412cade5e44931c36aad22a16c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 423736, guid: f75c1a412cade5e44931c36aad22a16c, type: 3}
       propertyPath: m_RootOrder
       value: 105
@@ -6478,6 +6966,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Roof_Mid_A (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 146000, guid: 6c1222a5c1b101d4b8780debc7845431, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 462742, guid: 6c1222a5c1b101d4b8780debc7845431, type: 3}
       propertyPath: m_RootOrder
       value: 218
@@ -6527,6 +7019,10 @@ PrefabInstance:
     - target: {fileID: 146654, guid: b3697fca2cda39f418b6b897bcf90cf6, type: 3}
       propertyPath: m_Name
       value: Villa1_Wall_Int_A (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 146654, guid: b3697fca2cda39f418b6b897bcf90cf6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 418322, guid: b3697fca2cda39f418b6b897bcf90cf6, type: 3}
       propertyPath: m_RootOrder
@@ -6578,6 +7074,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Deco_Handrail1_Mid_A (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 118640, guid: 3f034e995143d7c48aceeca0168460c0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 468246, guid: 3f034e995143d7c48aceeca0168460c0, type: 3}
       propertyPath: m_RootOrder
       value: 101
@@ -6627,6 +7127,10 @@ PrefabInstance:
     - target: {fileID: 156820, guid: e268c3025a2a0864f9c404b68a8cedcd, type: 3}
       propertyPath: m_Name
       value: Villa1_Floor_Mid_A_4x (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 156820, guid: e268c3025a2a0864f9c404b68a8cedcd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 454854, guid: e268c3025a2a0864f9c404b68a8cedcd, type: 3}
       propertyPath: m_RootOrder
@@ -6678,6 +7182,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Wall_Int_A (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 146654, guid: b3697fca2cda39f418b6b897bcf90cf6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 418322, guid: b3697fca2cda39f418b6b897bcf90cf6, type: 3}
       propertyPath: m_RootOrder
       value: 234
@@ -6727,6 +7235,10 @@ PrefabInstance:
     - target: {fileID: 134796, guid: 3f7bd70355e6e0646aad871c1e7859b5, type: 3}
       propertyPath: m_Name
       value: Villa1_Wall_Int_B (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 134796, guid: 3f7bd70355e6e0646aad871c1e7859b5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 462936, guid: 3f7bd70355e6e0646aad871c1e7859b5, type: 3}
       propertyPath: m_RootOrder
@@ -6867,6 +7379,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Deco_Handrail1_Mid_A (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 118640, guid: 3f034e995143d7c48aceeca0168460c0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 468246, guid: 3f034e995143d7c48aceeca0168460c0, type: 3}
       propertyPath: m_RootOrder
       value: 67
@@ -6917,6 +7433,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Floor_Mid_B (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 161186, guid: 6a62bff5fa244c447b5f2c5eea538a98, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 457668, guid: 6a62bff5fa244c447b5f2c5eea538a98, type: 3}
       propertyPath: m_RootOrder
       value: 209
@@ -6963,6 +7483,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1270003300}
     m_Modifications:
+    - target: {fileID: 155428, guid: 0629b26a98ce01a46b7bf9348c41bb30, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 434818, guid: 0629b26a98ce01a46b7bf9348c41bb30, type: 3}
       propertyPath: m_RootOrder
       value: 226
@@ -7016,6 +7540,10 @@ PrefabInstance:
     - target: {fileID: 182084, guid: 1893b7edd0ad11b4e9f6f17eeb9455b6, type: 3}
       propertyPath: m_Name
       value: Villa1_Floor_Mid_A (140)
+      objectReference: {fileID: 0}
+    - target: {fileID: 182084, guid: 1893b7edd0ad11b4e9f6f17eeb9455b6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 480730, guid: 1893b7edd0ad11b4e9f6f17eeb9455b6, type: 3}
       propertyPath: m_RootOrder
@@ -7143,6 +7671,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Roof_Mid_A (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 146000, guid: 6c1222a5c1b101d4b8780debc7845431, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 462742, guid: 6c1222a5c1b101d4b8780debc7845431, type: 3}
       propertyPath: m_RootOrder
       value: 124
@@ -7192,6 +7724,10 @@ PrefabInstance:
     - target: {fileID: 182084, guid: 1893b7edd0ad11b4e9f6f17eeb9455b6, type: 3}
       propertyPath: m_Name
       value: Villa1_Floor_Mid_A (86)
+      objectReference: {fileID: 0}
+    - target: {fileID: 182084, guid: 1893b7edd0ad11b4e9f6f17eeb9455b6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 480730, guid: 1893b7edd0ad11b4e9f6f17eeb9455b6, type: 3}
       propertyPath: m_RootOrder
@@ -7243,6 +7779,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Top_Mid_B (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 108432, guid: 88fbf37b7e4fff740bf50f2441298c8b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 428652, guid: 88fbf37b7e4fff740bf50f2441298c8b, type: 3}
       propertyPath: m_RootOrder
       value: 119
@@ -7292,6 +7832,10 @@ PrefabInstance:
     - target: {fileID: 132996, guid: 5d6e0b09bf6588c4194b0574def66713, type: 3}
       propertyPath: m_Name
       value: Villa1_Wall_Mid_A (53)
+      objectReference: {fileID: 0}
+    - target: {fileID: 132996, guid: 5d6e0b09bf6588c4194b0574def66713, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 433038, guid: 5d6e0b09bf6588c4194b0574def66713, type: 3}
       propertyPath: m_RootOrder
@@ -7347,6 +7891,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Wall_Mid_A (52)
       objectReference: {fileID: 0}
+    - target: {fileID: 132996, guid: 5d6e0b09bf6588c4194b0574def66713, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 433038, guid: 5d6e0b09bf6588c4194b0574def66713, type: 3}
       propertyPath: m_RootOrder
       value: 228
@@ -7401,6 +7949,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Deco_Handrail1_Cap_A (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 176728, guid: 19c68d79f0c9834478587f0dc3a6d944, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 482060, guid: 19c68d79f0c9834478587f0dc3a6d944, type: 3}
       propertyPath: m_RootOrder
       value: 116
@@ -7451,6 +8003,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Wall_Int_B (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 134796, guid: 3f7bd70355e6e0646aad871c1e7859b5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 462936, guid: 3f7bd70355e6e0646aad871c1e7859b5, type: 3}
       propertyPath: m_RootOrder
       value: 127
@@ -7500,6 +8056,10 @@ PrefabInstance:
     - target: {fileID: 162124, guid: 78a0483eabda41a40ab66ec11a4434a4, type: 3}
       propertyPath: m_Name
       value: Villa1_Base_Cor_A (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 162124, guid: 78a0483eabda41a40ab66ec11a4434a4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 454628, guid: 78a0483eabda41a40ab66ec11a4434a4, type: 3}
       propertyPath: m_RootOrder
@@ -7555,6 +8115,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Wall_Int_A (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 146654, guid: b3697fca2cda39f418b6b897bcf90cf6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 418322, guid: b3697fca2cda39f418b6b897bcf90cf6, type: 3}
       propertyPath: m_RootOrder
       value: 136
@@ -7605,6 +8169,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Top_Mid_A (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 155946, guid: 419a8536db6f54646b66c61dcdf5a2d6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 431848, guid: 419a8536db6f54646b66c61dcdf5a2d6, type: 3}
       propertyPath: m_RootOrder
       value: 128
@@ -7654,6 +8222,10 @@ PrefabInstance:
     - target: {fileID: 132996, guid: 5d6e0b09bf6588c4194b0574def66713, type: 3}
       propertyPath: m_Name
       value: Villa1_Wall_Mid_A (46)
+      objectReference: {fileID: 0}
+    - target: {fileID: 132996, guid: 5d6e0b09bf6588c4194b0574def66713, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 433038, guid: 5d6e0b09bf6588c4194b0574def66713, type: 3}
       propertyPath: m_RootOrder
@@ -7708,6 +8280,10 @@ PrefabInstance:
     - target: {fileID: 182084, guid: 1893b7edd0ad11b4e9f6f17eeb9455b6, type: 3}
       propertyPath: m_Name
       value: Villa1_Floor_Mid_A (79)
+      objectReference: {fileID: 0}
+    - target: {fileID: 182084, guid: 1893b7edd0ad11b4e9f6f17eeb9455b6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 480730, guid: 1893b7edd0ad11b4e9f6f17eeb9455b6, type: 3}
       propertyPath: m_RootOrder
@@ -7848,6 +8424,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Floor_Mid_A_4x (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 156820, guid: e268c3025a2a0864f9c404b68a8cedcd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 454854, guid: e268c3025a2a0864f9c404b68a8cedcd, type: 3}
       propertyPath: m_RootOrder
       value: 16
@@ -7897,6 +8477,10 @@ PrefabInstance:
     - target: {fileID: 182084, guid: 1893b7edd0ad11b4e9f6f17eeb9455b6, type: 3}
       propertyPath: m_Name
       value: Villa1_Floor_Mid_A (142)
+      objectReference: {fileID: 0}
+    - target: {fileID: 182084, guid: 1893b7edd0ad11b4e9f6f17eeb9455b6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 480730, guid: 1893b7edd0ad11b4e9f6f17eeb9455b6, type: 3}
       propertyPath: m_RootOrder
@@ -7948,6 +8532,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Floor_Mid_B (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 161186, guid: 6a62bff5fa244c447b5f2c5eea538a98, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 457668, guid: 6a62bff5fa244c447b5f2c5eea538a98, type: 3}
       propertyPath: m_RootOrder
       value: 51
@@ -7997,6 +8585,10 @@ PrefabInstance:
     - target: {fileID: 155946, guid: 419a8536db6f54646b66c61dcdf5a2d6, type: 3}
       propertyPath: m_Name
       value: Villa1_Top_Mid_A (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 155946, guid: 419a8536db6f54646b66c61dcdf5a2d6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 431848, guid: 419a8536db6f54646b66c61dcdf5a2d6, type: 3}
       propertyPath: m_RootOrder
@@ -8141,6 +8733,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Floor_Mid_A (131)
       objectReference: {fileID: 0}
+    - target: {fileID: 182084, guid: 1893b7edd0ad11b4e9f6f17eeb9455b6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 480730, guid: 1893b7edd0ad11b4e9f6f17eeb9455b6, type: 3}
       propertyPath: m_RootOrder
       value: 181
@@ -8187,6 +8783,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1270003300}
     m_Modifications:
+    - target: {fileID: 155428, guid: 0629b26a98ce01a46b7bf9348c41bb30, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 434818, guid: 0629b26a98ce01a46b7bf9348c41bb30, type: 3}
       propertyPath: m_RootOrder
       value: 167
@@ -8285,6 +8885,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Door A (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 2434404526089133046, guid: dc410243c00bb9a4fa9b18d5e86b0b77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2434404526091098783, guid: dc410243c00bb9a4fa9b18d5e86b0b77, type: 3}
       propertyPath: DoorState
       value: 1
@@ -8311,6 +8915,10 @@ PrefabInstance:
     - target: {fileID: 189904, guid: 909999d1c675e9141bd20febde2629f0, type: 3}
       propertyPath: m_Name
       value: Villa1_Deco_Beam_A (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 189904, guid: 909999d1c675e9141bd20febde2629f0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 480370, guid: 909999d1c675e9141bd20febde2629f0, type: 3}
       propertyPath: m_RootOrder
@@ -8362,6 +8970,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Deco_Column_Mid_A (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 131154, guid: 5296e314f038d5946b1e87c49325871e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 458972, guid: 5296e314f038d5946b1e87c49325871e, type: 3}
       propertyPath: m_RootOrder
       value: 207
@@ -8411,6 +9023,10 @@ PrefabInstance:
     - target: {fileID: 182084, guid: 1893b7edd0ad11b4e9f6f17eeb9455b6, type: 3}
       propertyPath: m_Name
       value: Villa1_Floor_Mid_A (102)
+      objectReference: {fileID: 0}
+    - target: {fileID: 182084, guid: 1893b7edd0ad11b4e9f6f17eeb9455b6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 480730, guid: 1893b7edd0ad11b4e9f6f17eeb9455b6, type: 3}
       propertyPath: m_RootOrder
@@ -8462,6 +9078,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Roof_Mid_A (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 146000, guid: 6c1222a5c1b101d4b8780debc7845431, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 462742, guid: 6c1222a5c1b101d4b8780debc7845431, type: 3}
       propertyPath: m_RootOrder
       value: 88
@@ -8512,6 +9132,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Wall_Int_B (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 134796, guid: 3f7bd70355e6e0646aad871c1e7859b5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 462936, guid: 3f7bd70355e6e0646aad871c1e7859b5, type: 3}
       propertyPath: m_RootOrder
       value: 83
@@ -8561,6 +9185,10 @@ PrefabInstance:
     - target: {fileID: 146654, guid: b3697fca2cda39f418b6b897bcf90cf6, type: 3}
       propertyPath: m_Name
       value: Villa1_Wall_Int_A (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 146654, guid: b3697fca2cda39f418b6b897bcf90cf6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 418322, guid: b3697fca2cda39f418b6b897bcf90cf6, type: 3}
       propertyPath: m_RootOrder
@@ -8688,6 +9316,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Floor_Mid_B (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 161186, guid: 6a62bff5fa244c447b5f2c5eea538a98, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 457668, guid: 6a62bff5fa244c447b5f2c5eea538a98, type: 3}
       propertyPath: m_RootOrder
       value: 69
@@ -8737,6 +9369,10 @@ PrefabInstance:
     - target: {fileID: 162124, guid: 78a0483eabda41a40ab66ec11a4434a4, type: 3}
       propertyPath: m_Name
       value: Villa1_Base_Cor_A (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 162124, guid: 78a0483eabda41a40ab66ec11a4434a4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 454628, guid: 78a0483eabda41a40ab66ec11a4434a4, type: 3}
       propertyPath: m_RootOrder
@@ -8796,6 +9432,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Floor_Mid_B (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 161186, guid: 6a62bff5fa244c447b5f2c5eea538a98, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 457668, guid: 6a62bff5fa244c447b5f2c5eea538a98, type: 3}
       propertyPath: m_RootOrder
       value: 145
@@ -8845,6 +9485,10 @@ PrefabInstance:
     - target: {fileID: 110932, guid: c07e4a61a403f6c4d9c06befc65876fd, type: 3}
       propertyPath: m_Name
       value: Villa1_Top_Cor_A (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 110932, guid: c07e4a61a403f6c4d9c06befc65876fd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 436576, guid: c07e4a61a403f6c4d9c06befc65876fd, type: 3}
       propertyPath: m_RootOrder
@@ -8899,6 +9543,10 @@ PrefabInstance:
     - target: {fileID: 189562, guid: eb76103868aa7dc4c8e39613a5835fb5, type: 3}
       propertyPath: m_Name
       value: Villa1_Base_Mid_A (42)
+      objectReference: {fileID: 0}
+    - target: {fileID: 189562, guid: eb76103868aa7dc4c8e39613a5835fb5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 471316, guid: eb76103868aa7dc4c8e39613a5835fb5, type: 3}
       propertyPath: m_RootOrder
@@ -9038,6 +9686,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Wall_Int_A (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 146654, guid: b3697fca2cda39f418b6b897bcf90cf6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 418322, guid: b3697fca2cda39f418b6b897bcf90cf6, type: 3}
       propertyPath: m_RootOrder
       value: 15
@@ -9088,6 +9740,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Deco_Handrail1_Mid_A (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 118640, guid: 3f034e995143d7c48aceeca0168460c0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 468246, guid: 3f034e995143d7c48aceeca0168460c0, type: 3}
       propertyPath: m_RootOrder
       value: 185
@@ -9137,6 +9793,10 @@ PrefabInstance:
     - target: {fileID: 189562, guid: eb76103868aa7dc4c8e39613a5835fb5, type: 3}
       propertyPath: m_Name
       value: Villa1_Base_Mid_A (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 189562, guid: eb76103868aa7dc4c8e39613a5835fb5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 471316, guid: eb76103868aa7dc4c8e39613a5835fb5, type: 3}
       propertyPath: m_RootOrder
@@ -9192,6 +9852,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Roof_Mid_A (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 146000, guid: 6c1222a5c1b101d4b8780debc7845431, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 462742, guid: 6c1222a5c1b101d4b8780debc7845431, type: 3}
       propertyPath: m_RootOrder
       value: 17
@@ -9242,6 +9906,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Deco_Beam_A (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 189904, guid: 909999d1c675e9141bd20febde2629f0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 480370, guid: 909999d1c675e9141bd20febde2629f0, type: 3}
       propertyPath: m_RootOrder
       value: 219
@@ -9291,6 +9959,10 @@ PrefabInstance:
     - target: {fileID: 169490, guid: 3db4b54e649f80f4287b6ea21e0d14f2, type: 3}
       propertyPath: m_Name
       value: Villa1_Wall_Mid_D (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 169490, guid: 3db4b54e649f80f4287b6ea21e0d14f2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 487350, guid: 3db4b54e649f80f4287b6ea21e0d14f2, type: 3}
       propertyPath: m_RootOrder
@@ -9346,6 +10018,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Wall_Mid_E (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 155428, guid: 0629b26a98ce01a46b7bf9348c41bb30, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 434818, guid: 0629b26a98ce01a46b7bf9348c41bb30, type: 3}
       propertyPath: m_RootOrder
       value: 175
@@ -9400,6 +10076,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Deco_Handrail1_Mid_A (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 118640, guid: 3f034e995143d7c48aceeca0168460c0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 468246, guid: 3f034e995143d7c48aceeca0168460c0, type: 3}
       propertyPath: m_RootOrder
       value: 36
@@ -9449,6 +10129,10 @@ PrefabInstance:
     - target: {fileID: 189562, guid: eb76103868aa7dc4c8e39613a5835fb5, type: 3}
       propertyPath: m_Name
       value: Villa1_Base_Mid_A (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 189562, guid: eb76103868aa7dc4c8e39613a5835fb5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 471316, guid: eb76103868aa7dc4c8e39613a5835fb5, type: 3}
       propertyPath: m_RootOrder
@@ -9508,6 +10192,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Top_Mid_A (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 155946, guid: 419a8536db6f54646b66c61dcdf5a2d6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 431848, guid: 419a8536db6f54646b66c61dcdf5a2d6, type: 3}
       propertyPath: m_RootOrder
       value: 81
@@ -9557,6 +10245,10 @@ PrefabInstance:
     - target: {fileID: 184192, guid: f1f3a6b5d79f5d74c9c6fa29dc791dbb, type: 3}
       propertyPath: m_Name
       value: Villa1_IntStairs_B (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 184192, guid: f1f3a6b5d79f5d74c9c6fa29dc791dbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 445220, guid: f1f3a6b5d79f5d74c9c6fa29dc791dbb, type: 3}
       propertyPath: m_RootOrder
@@ -9608,6 +10300,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Top_Mid_A (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 155946, guid: 419a8536db6f54646b66c61dcdf5a2d6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 431848, guid: 419a8536db6f54646b66c61dcdf5a2d6, type: 3}
       propertyPath: m_RootOrder
       value: 60
@@ -9657,6 +10353,10 @@ PrefabInstance:
     - target: {fileID: 155428, guid: 0629b26a98ce01a46b7bf9348c41bb30, type: 3}
       propertyPath: m_Name
       value: Villa1_Wall_Mid_E (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 155428, guid: 0629b26a98ce01a46b7bf9348c41bb30, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 434818, guid: 0629b26a98ce01a46b7bf9348c41bb30, type: 3}
       propertyPath: m_RootOrder
@@ -9715,7 +10415,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1270003300
 Transform:
@@ -9980,6 +10680,7 @@ Transform:
   - {fileID: 191815696}
   - {fileID: 2086520527}
   - {fileID: 1855370723}
+  - {fileID: 765798068}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -9993,6 +10694,10 @@ PrefabInstance:
     - target: {fileID: 134796, guid: 3f7bd70355e6e0646aad871c1e7859b5, type: 3}
       propertyPath: m_Name
       value: Villa1_Wall_Int_B (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 134796, guid: 3f7bd70355e6e0646aad871c1e7859b5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 462936, guid: 3f7bd70355e6e0646aad871c1e7859b5, type: 3}
       propertyPath: m_RootOrder
@@ -10044,6 +10749,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Roof_Mid_A (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 146000, guid: 6c1222a5c1b101d4b8780debc7845431, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 462742, guid: 6c1222a5c1b101d4b8780debc7845431, type: 3}
       propertyPath: m_RootOrder
       value: 59
@@ -10093,6 +10802,10 @@ PrefabInstance:
     - target: {fileID: 131154, guid: 5296e314f038d5946b1e87c49325871e, type: 3}
       propertyPath: m_Name
       value: Villa1_Deco_Column_Mid_A (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 131154, guid: 5296e314f038d5946b1e87c49325871e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 458972, guid: 5296e314f038d5946b1e87c49325871e, type: 3}
       propertyPath: m_RootOrder
@@ -10144,6 +10857,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Floor_Mid_B (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 161186, guid: 6a62bff5fa244c447b5f2c5eea538a98, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 457668, guid: 6a62bff5fa244c447b5f2c5eea538a98, type: 3}
       propertyPath: m_RootOrder
       value: 158
@@ -10193,6 +10910,10 @@ PrefabInstance:
     - target: {fileID: 118640, guid: 3f034e995143d7c48aceeca0168460c0, type: 3}
       propertyPath: m_Name
       value: Villa1_Deco_Handrail1_Mid_A (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 118640, guid: 3f034e995143d7c48aceeca0168460c0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 468246, guid: 3f034e995143d7c48aceeca0168460c0, type: 3}
       propertyPath: m_RootOrder
@@ -10248,6 +10969,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Deco_Handrail1_Mid_A (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 118640, guid: 3f034e995143d7c48aceeca0168460c0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 468246, guid: 3f034e995143d7c48aceeca0168460c0, type: 3}
       propertyPath: m_RootOrder
       value: 91
@@ -10297,6 +11022,10 @@ PrefabInstance:
     - target: {fileID: 146654, guid: b3697fca2cda39f418b6b897bcf90cf6, type: 3}
       propertyPath: m_Name
       value: Villa1_Wall_Int_A (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 146654, guid: b3697fca2cda39f418b6b897bcf90cf6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 418322, guid: b3697fca2cda39f418b6b897bcf90cf6, type: 3}
       propertyPath: m_RootOrder
@@ -10348,6 +11077,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Roof_Mid_A (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 146000, guid: 6c1222a5c1b101d4b8780debc7845431, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 462742, guid: 6c1222a5c1b101d4b8780debc7845431, type: 3}
       propertyPath: m_RootOrder
       value: 240
@@ -10397,6 +11130,10 @@ PrefabInstance:
     - target: {fileID: 156820, guid: e268c3025a2a0864f9c404b68a8cedcd, type: 3}
       propertyPath: m_Name
       value: Villa1_Floor_Mid_A_4x (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 156820, guid: e268c3025a2a0864f9c404b68a8cedcd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 454854, guid: e268c3025a2a0864f9c404b68a8cedcd, type: 3}
       propertyPath: m_RootOrder
@@ -10448,6 +11185,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Roof_Mid_A (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 146000, guid: 6c1222a5c1b101d4b8780debc7845431, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 462742, guid: 6c1222a5c1b101d4b8780debc7845431, type: 3}
       propertyPath: m_RootOrder
       value: 163
@@ -10497,6 +11238,10 @@ PrefabInstance:
     - target: {fileID: 182084, guid: 1893b7edd0ad11b4e9f6f17eeb9455b6, type: 3}
       propertyPath: m_Name
       value: Villa1_Floor_Mid_A (146)
+      objectReference: {fileID: 0}
+    - target: {fileID: 182084, guid: 1893b7edd0ad11b4e9f6f17eeb9455b6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 480730, guid: 1893b7edd0ad11b4e9f6f17eeb9455b6, type: 3}
       propertyPath: m_RootOrder
@@ -10548,6 +11293,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Wall_Int_A (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 146654, guid: b3697fca2cda39f418b6b897bcf90cf6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 418322, guid: b3697fca2cda39f418b6b897bcf90cf6, type: 3}
       propertyPath: m_RootOrder
       value: 18
@@ -10597,6 +11346,10 @@ PrefabInstance:
     - target: {fileID: 182084, guid: 1893b7edd0ad11b4e9f6f17eeb9455b6, type: 3}
       propertyPath: m_Name
       value: Villa1_Floor_Mid_A (145)
+      objectReference: {fileID: 0}
+    - target: {fileID: 182084, guid: 1893b7edd0ad11b4e9f6f17eeb9455b6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 480730, guid: 1893b7edd0ad11b4e9f6f17eeb9455b6, type: 3}
       propertyPath: m_RootOrder
@@ -10648,6 +11401,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Roof_Mid_A (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 146000, guid: 6c1222a5c1b101d4b8780debc7845431, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 462742, guid: 6c1222a5c1b101d4b8780debc7845431, type: 3}
       propertyPath: m_RootOrder
       value: 188
@@ -10697,6 +11454,10 @@ PrefabInstance:
     - target: {fileID: 154634, guid: 35a756c42404b894ea8cc2e61487fabb, type: 3}
       propertyPath: m_Name
       value: Villa1_ExtStairs_A (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 154634, guid: 35a756c42404b894ea8cc2e61487fabb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 426776, guid: 35a756c42404b894ea8cc2e61487fabb, type: 3}
       propertyPath: m_RootOrder
@@ -10752,6 +11513,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Floor_Mid_A (95)
       objectReference: {fileID: 0}
+    - target: {fileID: 182084, guid: 1893b7edd0ad11b4e9f6f17eeb9455b6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 480730, guid: 1893b7edd0ad11b4e9f6f17eeb9455b6, type: 3}
       propertyPath: m_RootOrder
       value: 80
@@ -10798,6 +11563,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1270003300}
     m_Modifications:
+    - target: {fileID: 155428, guid: 0629b26a98ce01a46b7bf9348c41bb30, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 434818, guid: 0629b26a98ce01a46b7bf9348c41bb30, type: 3}
       propertyPath: m_RootOrder
       value: 217
@@ -10851,6 +11620,10 @@ PrefabInstance:
     - target: {fileID: 127886, guid: f75c1a412cade5e44931c36aad22a16c, type: 3}
       propertyPath: m_Name
       value: Villa1_Wall_Cor_A (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 127886, guid: f75c1a412cade5e44931c36aad22a16c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 423736, guid: f75c1a412cade5e44931c36aad22a16c, type: 3}
       propertyPath: m_RootOrder
@@ -11096,7 +11869,7 @@ Transform:
   m_Children:
   - {fileID: 1999371161}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1437841003
 MonoBehaviour:
@@ -11135,6 +11908,10 @@ PrefabInstance:
     - target: {fileID: 108432, guid: 88fbf37b7e4fff740bf50f2441298c8b, type: 3}
       propertyPath: m_Name
       value: Villa1_Top_Mid_B (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 108432, guid: 88fbf37b7e4fff740bf50f2441298c8b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 428652, guid: 88fbf37b7e4fff740bf50f2441298c8b, type: 3}
       propertyPath: m_RootOrder
@@ -11186,6 +11963,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Floor_Mid_B (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 161186, guid: 6a62bff5fa244c447b5f2c5eea538a98, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 457668, guid: 6a62bff5fa244c447b5f2c5eea538a98, type: 3}
       propertyPath: m_RootOrder
       value: 151
@@ -11235,6 +12016,10 @@ PrefabInstance:
     - target: {fileID: 156820, guid: e268c3025a2a0864f9c404b68a8cedcd, type: 3}
       propertyPath: m_Name
       value: Villa1_Floor_Mid_A_4x (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 156820, guid: e268c3025a2a0864f9c404b68a8cedcd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 454854, guid: e268c3025a2a0864f9c404b68a8cedcd, type: 3}
       propertyPath: m_RootOrder
@@ -11375,6 +12160,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Deco_Handrail1_Mid_A (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 118640, guid: 3f034e995143d7c48aceeca0168460c0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 468246, guid: 3f034e995143d7c48aceeca0168460c0, type: 3}
       propertyPath: m_RootOrder
       value: 193
@@ -11424,6 +12213,10 @@ PrefabInstance:
     - target: {fileID: 182084, guid: 1893b7edd0ad11b4e9f6f17eeb9455b6, type: 3}
       propertyPath: m_Name
       value: Villa1_Floor_Mid_A (85)
+      objectReference: {fileID: 0}
+    - target: {fileID: 182084, guid: 1893b7edd0ad11b4e9f6f17eeb9455b6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 480730, guid: 1893b7edd0ad11b4e9f6f17eeb9455b6, type: 3}
       propertyPath: m_RootOrder
@@ -11475,6 +12268,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Deco_Column_Mid_A (38)
       objectReference: {fileID: 0}
+    - target: {fileID: 131154, guid: 5296e314f038d5946b1e87c49325871e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 458972, guid: 5296e314f038d5946b1e87c49325871e, type: 3}
       propertyPath: m_RootOrder
       value: 19
@@ -11524,6 +12321,10 @@ PrefabInstance:
     - target: {fileID: 189904, guid: 909999d1c675e9141bd20febde2629f0, type: 3}
       propertyPath: m_Name
       value: Villa1_Deco_Beam_A (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 189904, guid: 909999d1c675e9141bd20febde2629f0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 480370, guid: 909999d1c675e9141bd20febde2629f0, type: 3}
       propertyPath: m_RootOrder
@@ -11753,6 +12554,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Floor_Mid_B (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 161186, guid: 6a62bff5fa244c447b5f2c5eea538a98, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 457668, guid: 6a62bff5fa244c447b5f2c5eea538a98, type: 3}
       propertyPath: m_RootOrder
       value: 62
@@ -11802,6 +12607,10 @@ PrefabInstance:
     - target: {fileID: 156820, guid: e268c3025a2a0864f9c404b68a8cedcd, type: 3}
       propertyPath: m_Name
       value: Villa1_Floor_Mid_A_4x (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 156820, guid: e268c3025a2a0864f9c404b68a8cedcd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 454854, guid: e268c3025a2a0864f9c404b68a8cedcd, type: 3}
       propertyPath: m_RootOrder
@@ -11853,6 +12662,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Deco_Column_Mid_A (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 131154, guid: 5296e314f038d5946b1e87c49325871e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 458972, guid: 5296e314f038d5946b1e87c49325871e, type: 3}
       propertyPath: m_RootOrder
       value: 125
@@ -11902,6 +12715,10 @@ PrefabInstance:
     - target: {fileID: 189562, guid: eb76103868aa7dc4c8e39613a5835fb5, type: 3}
       propertyPath: m_Name
       value: Villa1_Base_Mid_A (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 189562, guid: eb76103868aa7dc4c8e39613a5835fb5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 471316, guid: eb76103868aa7dc4c8e39613a5835fb5, type: 3}
       propertyPath: m_RootOrder
@@ -12005,6 +12822,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Door A (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 2434404526089133046, guid: dc410243c00bb9a4fa9b18d5e86b0b77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2434404526091098783, guid: dc410243c00bb9a4fa9b18d5e86b0b77, type: 3}
       propertyPath: DoorState
       value: 1
@@ -12021,6 +12842,168 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2434404526088889446, guid: dc410243c00bb9a4fa9b18d5e86b0b77, type: 3}
   m_PrefabInstance: {fileID: 1578683677}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1584227331
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1584227335}
+  - component: {fileID: 1584227334}
+  - component: {fileID: 1584227333}
+  - component: {fileID: 1584227332}
+  - component: {fileID: 1584227336}
+  - component: {fileID: 1584227337}
+  - component: {fileID: 1584227338}
+  m_Layer: 0
+  m_Name: Something
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!136 &1584227332
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1584227331}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1584227333
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1584227331}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1584227334
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1584227331}
+  m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1584227335
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1584227331}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 655, y: 26, z: 495}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 27722659}
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!195 &1584227336
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1584227331}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 1
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
+--- !u!114 &1584227337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1584227331}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 089cfe1df81d8444f8adb9cb7dbf288c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PatrolPoint:
+  - {x: 637, y: 26, z: 508}
+  - {x: 675, y: 26, z: 505}
+  - {x: 655, y: 26, z: 495}
+  - {x: 660, y: 26, z: 495}
+  - {x: 655, y: 26, z: 500}
+  WaitTime: 1
+  StoppingDistance: 1.5
+  temp: {x: 0, y: 0, z: 0}
+  index: 0
+--- !u!54 &1584227338
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1584227331}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &1591603646
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12031,6 +13014,10 @@ PrefabInstance:
     - target: {fileID: 131154, guid: 5296e314f038d5946b1e87c49325871e, type: 3}
       propertyPath: m_Name
       value: Villa1_Deco_Column_Mid_A (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 131154, guid: 5296e314f038d5946b1e87c49325871e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 458972, guid: 5296e314f038d5946b1e87c49325871e, type: 3}
       propertyPath: m_RootOrder
@@ -12081,6 +13068,10 @@ PrefabInstance:
     - target: {fileID: 155946, guid: 419a8536db6f54646b66c61dcdf5a2d6, type: 3}
       propertyPath: m_Name
       value: Villa1_Top_Mid_A (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 155946, guid: 419a8536db6f54646b66c61dcdf5a2d6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 431848, guid: 419a8536db6f54646b66c61dcdf5a2d6, type: 3}
       propertyPath: m_RootOrder
@@ -12136,6 +13127,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Base_Mid_A (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 189562, guid: eb76103868aa7dc4c8e39613a5835fb5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 471316, guid: eb76103868aa7dc4c8e39613a5835fb5, type: 3}
       propertyPath: m_RootOrder
       value: 53
@@ -12189,6 +13184,10 @@ PrefabInstance:
     - target: {fileID: 189562, guid: eb76103868aa7dc4c8e39613a5835fb5, type: 3}
       propertyPath: m_Name
       value: Villa1_Base_Mid_A (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 189562, guid: eb76103868aa7dc4c8e39613a5835fb5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 471316, guid: eb76103868aa7dc4c8e39613a5835fb5, type: 3}
       propertyPath: m_RootOrder
@@ -12244,6 +13243,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Floor_Mid_A (148)
       objectReference: {fileID: 0}
+    - target: {fileID: 182084, guid: 1893b7edd0ad11b4e9f6f17eeb9455b6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 480730, guid: 1893b7edd0ad11b4e9f6f17eeb9455b6, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -12293,6 +13296,10 @@ PrefabInstance:
     - target: {fileID: 189562, guid: eb76103868aa7dc4c8e39613a5835fb5, type: 3}
       propertyPath: m_Name
       value: Villa1_Base_Mid_A (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 189562, guid: eb76103868aa7dc4c8e39613a5835fb5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 471316, guid: eb76103868aa7dc4c8e39613a5835fb5, type: 3}
       propertyPath: m_RootOrder
@@ -12344,6 +13351,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1270003300}
     m_Modifications:
+    - target: {fileID: 155428, guid: 0629b26a98ce01a46b7bf9348c41bb30, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 434818, guid: 0629b26a98ce01a46b7bf9348c41bb30, type: 3}
       propertyPath: m_RootOrder
       value: 197
@@ -12397,6 +13408,10 @@ PrefabInstance:
     - target: {fileID: 127886, guid: f75c1a412cade5e44931c36aad22a16c, type: 3}
       propertyPath: m_Name
       value: Villa1_Wall_Cor_A (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 127886, guid: f75c1a412cade5e44931c36aad22a16c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 423736, guid: f75c1a412cade5e44931c36aad22a16c, type: 3}
       propertyPath: m_RootOrder
@@ -12456,6 +13471,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_IntStairs_B (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 184192, guid: f1f3a6b5d79f5d74c9c6fa29dc791dbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 445220, guid: f1f3a6b5d79f5d74c9c6fa29dc791dbb, type: 3}
       propertyPath: m_RootOrder
       value: 76
@@ -12502,6 +13521,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1270003300}
     m_Modifications:
+    - target: {fileID: 105644, guid: d36395ac826e6f04f94518e05e52b105, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 424662, guid: d36395ac826e6f04f94518e05e52b105, type: 3}
       propertyPath: m_RootOrder
       value: 172
@@ -12737,6 +13760,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Floor_Mid_A_4x (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 156820, guid: e268c3025a2a0864f9c404b68a8cedcd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 454854, guid: e268c3025a2a0864f9c404b68a8cedcd, type: 3}
       propertyPath: m_RootOrder
       value: 50
@@ -12786,6 +13813,10 @@ PrefabInstance:
     - target: {fileID: 162016, guid: 113eb02b1f4058248bf628b2fde16564, type: 3}
       propertyPath: m_Name
       value: Villa1_Base_Mid_B (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 162016, guid: 113eb02b1f4058248bf628b2fde16564, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 417482, guid: 113eb02b1f4058248bf628b2fde16564, type: 3}
       propertyPath: m_RootOrder
@@ -12841,6 +13872,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Floor_Mid_A_4x (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 156820, guid: e268c3025a2a0864f9c404b68a8cedcd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 454854, guid: e268c3025a2a0864f9c404b68a8cedcd, type: 3}
       propertyPath: m_RootOrder
       value: 29
@@ -12890,6 +13925,10 @@ PrefabInstance:
     - target: {fileID: 146654, guid: b3697fca2cda39f418b6b897bcf90cf6, type: 3}
       propertyPath: m_Name
       value: Villa1_Wall_Int_A (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 146654, guid: b3697fca2cda39f418b6b897bcf90cf6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 418322, guid: b3697fca2cda39f418b6b897bcf90cf6, type: 3}
       propertyPath: m_RootOrder
@@ -12941,6 +13980,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Wall_Cor_A (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 127886, guid: f75c1a412cade5e44931c36aad22a16c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 423736, guid: f75c1a412cade5e44931c36aad22a16c, type: 3}
       propertyPath: m_RootOrder
       value: 77
@@ -12991,6 +14034,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Floor_Mid_A_4x (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 156820, guid: e268c3025a2a0864f9c404b68a8cedcd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 454854, guid: e268c3025a2a0864f9c404b68a8cedcd, type: 3}
       propertyPath: m_RootOrder
       value: 78
@@ -13040,6 +14087,10 @@ PrefabInstance:
     - target: {fileID: 155946, guid: 419a8536db6f54646b66c61dcdf5a2d6, type: 3}
       propertyPath: m_Name
       value: Villa1_Top_Mid_A (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 155946, guid: 419a8536db6f54646b66c61dcdf5a2d6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 431848, guid: 419a8536db6f54646b66c61dcdf5a2d6, type: 3}
       propertyPath: m_RootOrder
@@ -13095,6 +14146,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Roof_Mid_A (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 146000, guid: 6c1222a5c1b101d4b8780debc7845431, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 462742, guid: 6c1222a5c1b101d4b8780debc7845431, type: 3}
       propertyPath: m_RootOrder
       value: 24
@@ -13144,6 +14199,10 @@ PrefabInstance:
     - target: {fileID: 189562, guid: eb76103868aa7dc4c8e39613a5835fb5, type: 3}
       propertyPath: m_Name
       value: Villa1_Base_Mid_A (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 189562, guid: eb76103868aa7dc4c8e39613a5835fb5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 471316, guid: eb76103868aa7dc4c8e39613a5835fb5, type: 3}
       propertyPath: m_RootOrder
@@ -13198,6 +14257,10 @@ PrefabInstance:
     - target: {fileID: 161186, guid: 6a62bff5fa244c447b5f2c5eea538a98, type: 3}
       propertyPath: m_Name
       value: Villa1_Floor_Mid_B (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 161186, guid: 6a62bff5fa244c447b5f2c5eea538a98, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 457668, guid: 6a62bff5fa244c447b5f2c5eea538a98, type: 3}
       propertyPath: m_RootOrder
@@ -13317,6 +14380,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Wall_Int_B (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 134796, guid: 3f7bd70355e6e0646aad871c1e7859b5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 462936, guid: 3f7bd70355e6e0646aad871c1e7859b5, type: 3}
       propertyPath: m_RootOrder
       value: 132
@@ -13366,6 +14433,10 @@ PrefabInstance:
     - target: {fileID: 169490, guid: 3db4b54e649f80f4287b6ea21e0d14f2, type: 3}
       propertyPath: m_Name
       value: Villa1_Wall_Mid_D (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 169490, guid: 3db4b54e649f80f4287b6ea21e0d14f2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 487350, guid: 3db4b54e649f80f4287b6ea21e0d14f2, type: 3}
       propertyPath: m_RootOrder
@@ -13421,6 +14492,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Wall_Mid_A (43)
       objectReference: {fileID: 0}
+    - target: {fileID: 132996, guid: 5d6e0b09bf6588c4194b0574def66713, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 433038, guid: 5d6e0b09bf6588c4194b0574def66713, type: 3}
       propertyPath: m_RootOrder
       value: 122
@@ -13475,6 +14550,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Roof_Mid_B (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 188474, guid: e479fb829761ad7408092fe346314659, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 453718, guid: e479fb829761ad7408092fe346314659, type: 3}
       propertyPath: m_RootOrder
       value: 220
@@ -13524,6 +14603,10 @@ PrefabInstance:
     - target: {fileID: 155946, guid: 419a8536db6f54646b66c61dcdf5a2d6, type: 3}
       propertyPath: m_Name
       value: Villa1_Top_Mid_A (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 155946, guid: 419a8536db6f54646b66c61dcdf5a2d6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 431848, guid: 419a8536db6f54646b66c61dcdf5a2d6, type: 3}
       propertyPath: m_RootOrder
@@ -13579,6 +14662,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Roof_Mid_A (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 146000, guid: 6c1222a5c1b101d4b8780debc7845431, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 462742, guid: 6c1222a5c1b101d4b8780debc7845431, type: 3}
       propertyPath: m_RootOrder
       value: 121
@@ -13625,6 +14712,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1270003300}
     m_Modifications:
+    - target: {fileID: 155428, guid: 0629b26a98ce01a46b7bf9348c41bb30, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 434818, guid: 0629b26a98ce01a46b7bf9348c41bb30, type: 3}
       propertyPath: m_RootOrder
       value: 43
@@ -13678,6 +14769,10 @@ PrefabInstance:
     - target: {fileID: 189562, guid: eb76103868aa7dc4c8e39613a5835fb5, type: 3}
       propertyPath: m_Name
       value: Villa1_Base_Mid_A (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 189562, guid: eb76103868aa7dc4c8e39613a5835fb5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 471316, guid: eb76103868aa7dc4c8e39613a5835fb5, type: 3}
       propertyPath: m_RootOrder
@@ -13733,6 +14828,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Wall_Mid_A (45)
       objectReference: {fileID: 0}
+    - target: {fileID: 132996, guid: 5d6e0b09bf6588c4194b0574def66713, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 433038, guid: 5d6e0b09bf6588c4194b0574def66713, type: 3}
       propertyPath: m_RootOrder
       value: 141
@@ -13783,6 +14882,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1270003300}
     m_Modifications:
+    - target: {fileID: 155428, guid: 0629b26a98ce01a46b7bf9348c41bb30, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 434818, guid: 0629b26a98ce01a46b7bf9348c41bb30, type: 3}
       propertyPath: m_RootOrder
       value: 170
@@ -13836,6 +14939,10 @@ PrefabInstance:
     - target: {fileID: 189562, guid: eb76103868aa7dc4c8e39613a5835fb5, type: 3}
       propertyPath: m_Name
       value: Villa1_Base_Mid_A (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 189562, guid: eb76103868aa7dc4c8e39613a5835fb5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 471316, guid: eb76103868aa7dc4c8e39613a5835fb5, type: 3}
       propertyPath: m_RootOrder
@@ -13891,6 +14998,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Wall_Int_A (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 146654, guid: b3697fca2cda39f418b6b897bcf90cf6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 418322, guid: b3697fca2cda39f418b6b897bcf90cf6, type: 3}
       propertyPath: m_RootOrder
       value: 129
@@ -13940,6 +15051,10 @@ PrefabInstance:
     - target: {fileID: 132996, guid: 5d6e0b09bf6588c4194b0574def66713, type: 3}
       propertyPath: m_Name
       value: Villa1_Wall_Mid_A (54)
+      objectReference: {fileID: 0}
+    - target: {fileID: 132996, guid: 5d6e0b09bf6588c4194b0574def66713, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 433038, guid: 5d6e0b09bf6588c4194b0574def66713, type: 3}
       propertyPath: m_RootOrder
@@ -13995,6 +15110,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Wall_Int_A (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 146654, guid: b3697fca2cda39f418b6b897bcf90cf6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 418322, guid: b3697fca2cda39f418b6b897bcf90cf6, type: 3}
       propertyPath: m_RootOrder
       value: 57
@@ -14044,6 +15163,10 @@ PrefabInstance:
     - target: {fileID: 155946, guid: 419a8536db6f54646b66c61dcdf5a2d6, type: 3}
       propertyPath: m_Name
       value: Villa1_Top_Mid_A (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 155946, guid: 419a8536db6f54646b66c61dcdf5a2d6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 431848, guid: 419a8536db6f54646b66c61dcdf5a2d6, type: 3}
       propertyPath: m_RootOrder
@@ -14099,6 +15222,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Top_Mid_A (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 155946, guid: 419a8536db6f54646b66c61dcdf5a2d6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 431848, guid: 419a8536db6f54646b66c61dcdf5a2d6, type: 3}
       propertyPath: m_RootOrder
       value: 113
@@ -14148,6 +15275,10 @@ PrefabInstance:
     - target: {fileID: 146000, guid: 6c1222a5c1b101d4b8780debc7845431, type: 3}
       propertyPath: m_Name
       value: Villa1_Roof_Mid_A (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 146000, guid: 6c1222a5c1b101d4b8780debc7845431, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 462742, guid: 6c1222a5c1b101d4b8780debc7845431, type: 3}
       propertyPath: m_RootOrder
@@ -14236,6 +15367,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Deco_Beam_A (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 189904, guid: 909999d1c675e9141bd20febde2629f0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 480370, guid: 909999d1c675e9141bd20febde2629f0, type: 3}
       propertyPath: m_RootOrder
       value: 66
@@ -14285,6 +15420,10 @@ PrefabInstance:
     - target: {fileID: 132996, guid: 5d6e0b09bf6588c4194b0574def66713, type: 3}
       propertyPath: m_Name
       value: Villa1_Wall_Mid_A (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 132996, guid: 5d6e0b09bf6588c4194b0574def66713, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 433038, guid: 5d6e0b09bf6588c4194b0574def66713, type: 3}
       propertyPath: m_RootOrder
@@ -14340,6 +15479,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Floor_Mid_A (87)
       objectReference: {fileID: 0}
+    - target: {fileID: 182084, guid: 1893b7edd0ad11b4e9f6f17eeb9455b6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 480730, guid: 1893b7edd0ad11b4e9f6f17eeb9455b6, type: 3}
       propertyPath: m_RootOrder
       value: 159
@@ -14389,6 +15532,10 @@ PrefabInstance:
     - target: {fileID: 146000, guid: 6c1222a5c1b101d4b8780debc7845431, type: 3}
       propertyPath: m_Name
       value: Villa1_Roof_Mid_A (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 146000, guid: 6c1222a5c1b101d4b8780debc7845431, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 462742, guid: 6c1222a5c1b101d4b8780debc7845431, type: 3}
       propertyPath: m_RootOrder
@@ -14440,6 +15587,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Ext_A (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 100364, guid: 287365a760f34774c89f2f14c93e3251, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 447124, guid: 287365a760f34774c89f2f14c93e3251, type: 3}
       propertyPath: m_RootOrder
       value: 236
@@ -14490,6 +15641,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1270003300}
     m_Modifications:
+    - target: {fileID: 155428, guid: 0629b26a98ce01a46b7bf9348c41bb30, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 434818, guid: 0629b26a98ce01a46b7bf9348c41bb30, type: 3}
       propertyPath: m_RootOrder
       value: 41
@@ -14544,6 +15699,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Deco_Handrail1_Cor_A (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 159566, guid: 5231b1ce9b6dd08469350cd29d28d50d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 447096, guid: 5231b1ce9b6dd08469350cd29d28d50d, type: 3}
       propertyPath: m_RootOrder
       value: 120
@@ -14594,6 +15753,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Floor_Mid_A (149)
       objectReference: {fileID: 0}
+    - target: {fileID: 182084, guid: 1893b7edd0ad11b4e9f6f17eeb9455b6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 480730, guid: 1893b7edd0ad11b4e9f6f17eeb9455b6, type: 3}
       propertyPath: m_RootOrder
       value: 231
@@ -14643,6 +15806,10 @@ PrefabInstance:
     - target: {fileID: 132996, guid: 5d6e0b09bf6588c4194b0574def66713, type: 3}
       propertyPath: m_Name
       value: Villa1_Wall_Mid_A (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 132996, guid: 5d6e0b09bf6588c4194b0574def66713, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 433038, guid: 5d6e0b09bf6588c4194b0574def66713, type: 3}
       propertyPath: m_RootOrder
@@ -14698,6 +15865,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Floor_Mid_A (133)
       objectReference: {fileID: 0}
+    - target: {fileID: 182084, guid: 1893b7edd0ad11b4e9f6f17eeb9455b6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 480730, guid: 1893b7edd0ad11b4e9f6f17eeb9455b6, type: 3}
       propertyPath: m_RootOrder
       value: 213
@@ -14747,6 +15918,10 @@ PrefabInstance:
     - target: {fileID: 127886, guid: f75c1a412cade5e44931c36aad22a16c, type: 3}
       propertyPath: m_Name
       value: Villa1_Wall_Cor_A (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 127886, guid: f75c1a412cade5e44931c36aad22a16c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 423736, guid: f75c1a412cade5e44931c36aad22a16c, type: 3}
       propertyPath: m_RootOrder
@@ -14917,6 +16092,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Deco_Column_Top_A (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 173016, guid: 201c750a85d617249b8405c7d042da15, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 432244, guid: 201c750a85d617249b8405c7d042da15, type: 3}
       propertyPath: m_RootOrder
       value: 198
@@ -14966,6 +16145,10 @@ PrefabInstance:
     - target: {fileID: 146000, guid: 6c1222a5c1b101d4b8780debc7845431, type: 3}
       propertyPath: m_Name
       value: Villa1_Roof_Mid_A (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 146000, guid: 6c1222a5c1b101d4b8780debc7845431, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 462742, guid: 6c1222a5c1b101d4b8780debc7845431, type: 3}
       propertyPath: m_RootOrder
@@ -15061,6 +16244,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Door A (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2434404526089133046, guid: dc410243c00bb9a4fa9b18d5e86b0b77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2434404526091098783, guid: dc410243c00bb9a4fa9b18d5e86b0b77, type: 3}
       propertyPath: DoorState
       value: 1
@@ -15082,6 +16269,10 @@ PrefabInstance:
     - target: {fileID: 110932, guid: c07e4a61a403f6c4d9c06befc65876fd, type: 3}
       propertyPath: m_Name
       value: Villa1_Top_Cor_A (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 110932, guid: c07e4a61a403f6c4d9c06befc65876fd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 436576, guid: c07e4a61a403f6c4d9c06befc65876fd, type: 3}
       propertyPath: m_RootOrder
@@ -15142,6 +16333,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1270003300}
     m_Modifications:
+    - target: {fileID: 155428, guid: 0629b26a98ce01a46b7bf9348c41bb30, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 434818, guid: 0629b26a98ce01a46b7bf9348c41bb30, type: 3}
       propertyPath: m_RootOrder
       value: 189
@@ -15227,6 +16422,10 @@ PrefabInstance:
     - target: {fileID: 105644, guid: d36395ac826e6f04f94518e05e52b105, type: 3}
       propertyPath: m_Name
       value: Villa1_Wall_Mid_B (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 105644, guid: d36395ac826e6f04f94518e05e52b105, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 424662, guid: d36395ac826e6f04f94518e05e52b105, type: 3}
       propertyPath: m_RootOrder
@@ -15314,6 +16513,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Floor_Mid_A_4x (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 156820, guid: e268c3025a2a0864f9c404b68a8cedcd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 454854, guid: e268c3025a2a0864f9c404b68a8cedcd, type: 3}
       propertyPath: m_RootOrder
       value: 140
@@ -15363,6 +16566,10 @@ PrefabInstance:
     - target: {fileID: 156820, guid: e268c3025a2a0864f9c404b68a8cedcd, type: 3}
       propertyPath: m_Name
       value: Villa1_Floor_Mid_A_4x (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 156820, guid: e268c3025a2a0864f9c404b68a8cedcd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 454854, guid: e268c3025a2a0864f9c404b68a8cedcd, type: 3}
       propertyPath: m_RootOrder
@@ -15414,6 +16621,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Wall_Int_A (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 146654, guid: b3697fca2cda39f418b6b897bcf90cf6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 418322, guid: b3697fca2cda39f418b6b897bcf90cf6, type: 3}
       propertyPath: m_RootOrder
       value: 123
@@ -15463,6 +16674,10 @@ PrefabInstance:
     - target: {fileID: 131154, guid: 5296e314f038d5946b1e87c49325871e, type: 3}
       propertyPath: m_Name
       value: Villa1_Deco_Column_Mid_A (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 131154, guid: 5296e314f038d5946b1e87c49325871e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 458972, guid: 5296e314f038d5946b1e87c49325871e, type: 3}
       propertyPath: m_RootOrder
@@ -15514,6 +16729,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Deco_Column_Mid_A (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 131154, guid: 5296e314f038d5946b1e87c49325871e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 458972, guid: 5296e314f038d5946b1e87c49325871e, type: 3}
       propertyPath: m_RootOrder
       value: 249
@@ -15563,6 +16782,10 @@ PrefabInstance:
     - target: {fileID: 182084, guid: 1893b7edd0ad11b4e9f6f17eeb9455b6, type: 3}
       propertyPath: m_Name
       value: Villa1_Floor_Mid_A (166)
+      objectReference: {fileID: 0}
+    - target: {fileID: 182084, guid: 1893b7edd0ad11b4e9f6f17eeb9455b6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 480730, guid: 1893b7edd0ad11b4e9f6f17eeb9455b6, type: 3}
       propertyPath: m_RootOrder
@@ -15614,6 +16837,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Deco_Column_Mid_A (43)
       objectReference: {fileID: 0}
+    - target: {fileID: 131154, guid: 5296e314f038d5946b1e87c49325871e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 458972, guid: 5296e314f038d5946b1e87c49325871e, type: 3}
       propertyPath: m_RootOrder
       value: 199
@@ -15664,6 +16891,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Floor_Mid_A_4x (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 156820, guid: e268c3025a2a0864f9c404b68a8cedcd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 454854, guid: e268c3025a2a0864f9c404b68a8cedcd, type: 3}
       propertyPath: m_RootOrder
       value: 95
@@ -15710,6 +16941,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1270003300}
     m_Modifications:
+    - target: {fileID: 167598, guid: d781bf1f233fcee4781b7107a23fe74a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 468938, guid: d781bf1f233fcee4781b7107a23fe74a, type: 3}
       propertyPath: m_RootOrder
       value: 241
@@ -15759,6 +16994,10 @@ PrefabInstance:
     - target: {fileID: 110932, guid: c07e4a61a403f6c4d9c06befc65876fd, type: 3}
       propertyPath: m_Name
       value: Villa1_Top_Cor_A (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 110932, guid: c07e4a61a403f6c4d9c06befc65876fd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 436576, guid: c07e4a61a403f6c4d9c06befc65876fd, type: 3}
       propertyPath: m_RootOrder
@@ -15814,6 +17053,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Deco_Column_Mid_A (40)
       objectReference: {fileID: 0}
+    - target: {fileID: 131154, guid: 5296e314f038d5946b1e87c49325871e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 458972, guid: 5296e314f038d5946b1e87c49325871e, type: 3}
       propertyPath: m_RootOrder
       value: 221
@@ -15864,6 +17107,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Floor_Mid_A (141)
       objectReference: {fileID: 0}
+    - target: {fileID: 182084, guid: 1893b7edd0ad11b4e9f6f17eeb9455b6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 480730, guid: 1893b7edd0ad11b4e9f6f17eeb9455b6, type: 3}
       propertyPath: m_RootOrder
       value: 187
@@ -15913,6 +17160,10 @@ PrefabInstance:
     - target: {fileID: 132996, guid: 5d6e0b09bf6588c4194b0574def66713, type: 3}
       propertyPath: m_Name
       value: Villa1_Wall_Mid_A (39)
+      objectReference: {fileID: 0}
+    - target: {fileID: 132996, guid: 5d6e0b09bf6588c4194b0574def66713, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 433038, guid: 5d6e0b09bf6588c4194b0574def66713, type: 3}
       propertyPath: m_RootOrder
@@ -15968,6 +17219,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Floor_Mid_A (80)
       objectReference: {fileID: 0}
+    - target: {fileID: 182084, guid: 1893b7edd0ad11b4e9f6f17eeb9455b6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 480730, guid: 1893b7edd0ad11b4e9f6f17eeb9455b6, type: 3}
       propertyPath: m_RootOrder
       value: 40
@@ -16017,6 +17272,10 @@ PrefabInstance:
     - target: {fileID: 156820, guid: e268c3025a2a0864f9c404b68a8cedcd, type: 3}
       propertyPath: m_Name
       value: Villa1_Floor_Mid_A_4x (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 156820, guid: e268c3025a2a0864f9c404b68a8cedcd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 454854, guid: e268c3025a2a0864f9c404b68a8cedcd, type: 3}
       propertyPath: m_RootOrder
@@ -16068,6 +17327,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Floor_Mid_B (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 161186, guid: 6a62bff5fa244c447b5f2c5eea538a98, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 457668, guid: 6a62bff5fa244c447b5f2c5eea538a98, type: 3}
       propertyPath: m_RootOrder
       value: 178
@@ -16118,6 +17381,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Villa1_Floor_Mid_B (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 161186, guid: 6a62bff5fa244c447b5f2c5eea538a98, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 457668, guid: 6a62bff5fa244c447b5f2c5eea538a98, type: 3}
       propertyPath: m_RootOrder
       value: 235
@@ -16167,6 +17434,10 @@ PrefabInstance:
     - target: {fileID: 132996, guid: 5d6e0b09bf6588c4194b0574def66713, type: 3}
       propertyPath: m_Name
       value: Villa1_Wall_Mid_A (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 132996, guid: 5d6e0b09bf6588c4194b0574def66713, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 433038, guid: 5d6e0b09bf6588c4194b0574def66713, type: 3}
       propertyPath: m_RootOrder
@@ -16282,6 +17553,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Door B
       objectReference: {fileID: 0}
+    - target: {fileID: 968564032776451629, guid: fc606563445ad814ca2873e1c2f6c1df, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 968564032774523367, guid: fc606563445ad814ca2873e1c2f6c1df, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: fc606563445ad814ca2873e1c2f6c1df, type: 3}
@@ -16339,6 +17614,10 @@ PrefabInstance:
     - target: {fileID: 2434404526089133046, guid: dc410243c00bb9a4fa9b18d5e86b0b77, type: 3}
       propertyPath: m_Name
       value: Door A
+      objectReference: {fileID: 0}
+    - target: {fileID: 2434404526089133046, guid: dc410243c00bb9a4fa9b18d5e86b0b77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2434404526091098783, guid: dc410243c00bb9a4fa9b18d5e86b0b77, type: 3}
       propertyPath: DoorState
