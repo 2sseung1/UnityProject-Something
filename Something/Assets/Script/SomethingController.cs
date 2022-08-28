@@ -19,15 +19,15 @@ public class SomethingController : MonoBehaviour
     private float StoppingDistance;
 
     private NavMeshAgent _agent;
+    private WaitForFixedUpdate _waitForFixedUpdate;
     private float _remainingDistance;
-
-    public Vector3 temp;
-    public int index;
+    private int _index;
 
     void Awake()
     {
         State = SomethingState.Patrol;
         _agent = GetComponent<NavMeshAgent>();
+        _waitForFixedUpdate = new WaitForFixedUpdate();
     }
 
     void Start()
@@ -52,8 +52,6 @@ public class SomethingController : MonoBehaviour
 
     IEnumerator Patrol()
     {
-        Debug.Log("순찰 시작");
-
         while (true)
         {
             _remainingDistance = (_agent.destination - transform.position).magnitude;
@@ -62,7 +60,7 @@ public class SomethingController : MonoBehaviour
                 break;
             }
 
-            yield return new WaitForFixedUpdate();
+            yield return _waitForFixedUpdate;
         }
 
         StartCoroutine(SetNextPatrol());
@@ -70,19 +68,17 @@ public class SomethingController : MonoBehaviour
 
     IEnumerator SetNextPatrol()
     {
-        Debug.Log("목적지 설정중");
         yield return new WaitForSeconds(WaitTime);
 
-        index = Random.Range(0, PatrolPoint.Length);
-        while (PatrolPoint[index] == _agent.destination)
+        _index = Random.Range(0, PatrolPoint.Length);
+        while (PatrolPoint[_index] == _agent.destination)
         {
-            index = Random.Range(0, PatrolPoint.Length);
-            temp = PatrolPoint[index];
+            _index = Random.Range(0, PatrolPoint.Length);
 
             yield return new WaitForSeconds(0.1f);
         }
 
-        _agent.destination = PatrolPoint[index];
+        _agent.destination = PatrolPoint[_index];
         StartCoroutine(Patrol());
     }
 }
