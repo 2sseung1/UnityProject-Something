@@ -20,6 +20,7 @@ public class Door : MonoBehaviour, IInteractionObject
     private float _openForwardMinAngleY;
     private float _openBackwardMaxAngleY;
     private WaitForFixedUpdate _waitForFixedUpdate;
+    private DoorData _data;
 
     void Awake()
     {

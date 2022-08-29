@@ -7,6 +7,7 @@ public class ObjectChecker : MonoBehaviour
     public Camera RaycastPoint;
 
     public RaycastHit HitInfo { get { return _hit; } }
+    public bool ObjectDetect { get; private set; }
 
     [SerializeField]
     private float RaycastDistance;
@@ -15,6 +16,7 @@ public class ObjectChecker : MonoBehaviour
 
     public bool ObjectCheck()
     {
-        return Physics.Raycast(RaycastPoint.transform.position, RaycastPoint.transform.forward, out _hit, RaycastDistance);
+        ObjectDetect = Physics.Raycast(RaycastPoint.transform.position, RaycastPoint.transform.forward, out _hit, RaycastDistance);
+        return ObjectDetect;
     }
 }
