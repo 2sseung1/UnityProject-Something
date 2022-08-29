@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.12731749, g: 0.13414757, b: 0.1210787, a: 1}
+  m_IndirectSpecularColor: {r: 0.12731713, g: 0.13414736, b: 0.12107852, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -9602,7 +9602,7 @@ GameObject:
   - component: {fileID: 1153399526}
   - component: {fileID: 1153399528}
   - component: {fileID: 1153399527}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: MainCamera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -11683,7 +11683,7 @@ GameObject:
   - component: {fileID: 1437840993}
   - component: {fileID: 1437841003}
   - component: {fileID: 1437841004}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Test Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -12856,6 +12856,7 @@ GameObject:
   - component: {fileID: 1584227332}
   - component: {fileID: 1584227336}
   - component: {fileID: 1584227337}
+  - component: {fileID: 1584227339}
   - component: {fileID: 1584227338}
   m_Layer: 0
   m_Name: Something
@@ -12954,7 +12955,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 3.5
+  m_Speed: 7
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -12986,6 +12987,7 @@ MonoBehaviour:
   - {x: 655, y: 26, z: 500}
   WaitTime: 5
   StoppingDistance: 1.5
+  KillDistance: 2
 --- !u!54 &1584227338
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -13002,6 +13004,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1584227339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1584227331}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3411c3d39ab6ae746af21d80403c992f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ViewRadius: 7
+  ViewAngle: 60
 --- !u!1001 &1591603646
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16387,7 +16403,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1999371161}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
