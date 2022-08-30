@@ -4,11 +4,13 @@ using UnityEngine;
 
 public class Door : MonoBehaviour, IInteractionObject
 {
-    private enum State
+    public enum State
     {
         Open,
         Close
     }
+
+    public State GetDoorState { get { return DoorState; } }
 
     [SerializeField]
     private State DoorState;

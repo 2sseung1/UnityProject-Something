@@ -441,6 +441,8 @@
 "Assets/Script/Enemy/EnemyFieldOfView.cs"
 "Assets/Script/IInteractionObject.cs"
 "Assets/Script/Interacte.cs"
+"Assets/Script/InteractionData.cs"
+"Assets/Script/InteractionUI.cs"
 "Assets/Script/InventoryController.cs"
 "Assets/Script/InventorySlot.cs"
 "Assets/Script/Item/Item.cs"
@@ -452,7 +454,6 @@
 "Assets/Script/Player/PlayerInteracte.cs"
 "Assets/Script/Player/PlayerMove.cs"
 "Assets/Script/Player/PlayerRotate.cs"
-"Assets/Script/PopUpUIController.cs"
 "Assets/Script/UIManager.cs"
 -langversion:9.0
 

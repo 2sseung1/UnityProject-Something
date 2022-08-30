@@ -4,8 +4,8 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - InteractionObject
-  - Arrival Checker
+  - Door
+  - Item
   layers:
   - Default
   - TransparentFX
