@@ -10,8 +10,12 @@ public class PlayerInput : MonoBehaviour
     public float MouseX { get; private set; }
     public float MouseY { get; private set; }
 
-    public UnityEvent KeyDown_E;
-    public UnityEvent KeyDown_I;
+    public UnityEvent InteractionKeyDown;
+    public UnityEvent EscapeKeyDown;
+    public UnityEvent<KeyCode> UIKeyDown;
+
+    [SerializeField]
+    private UIManager UIManager;
 
     void Awake()
     {
@@ -19,6 +23,8 @@ public class PlayerInput : MonoBehaviour
         InputY = 0f;
         MouseX = 0f;
         MouseY = 0f;
+
+        UIKeyDown.AddListener(UIManager.MenuControl);
     }
 
     void Update()
@@ -29,9 +35,18 @@ public class PlayerInput : MonoBehaviour
         MouseY = Input.GetAxis("Mouse Y");
 
         if (Input.GetKeyDown(KeyCode.E))
-            KeyDown_E.Invoke();
+        {
+            InteractionKeyDown.Invoke();
+        }
 
         if (Input.GetKeyDown(KeyCode.I))
-            KeyDown_I.Invoke();
+        {
+            UIKeyDown.Invoke(KeyCode.I);
+        }
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            EscapeKeyDown.Invoke();
+        }
     }
 }

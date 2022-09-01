@@ -18,8 +18,8 @@ public class PlayerRotate : MonoBehaviour
 
     public void Rotate(float mouseX, float mouseY)
     {
-        _angleX -= mouseY * RotateSpeed;
-        _angleY += mouseX * RotateSpeed;
+        _angleX -= mouseY * RotateSpeed * Time.deltaTime;
+        _angleY += mouseX * RotateSpeed * Time.deltaTime;
         CheckAngle(_angleX, _angleY);
         Vector3 newAngle = new Vector3(_angleX, _angleY, 0f);
 

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class InventoryController : MonoBehaviour
+public class InventoryController : MonoBehaviour, IMenu
 {
     public bool ViewActive { get; private set; }
 
@@ -28,14 +28,14 @@ public class InventoryController : MonoBehaviour
     void Start()
     {
         ViewActive = true;
-        ViewOnOff();
+        ViewOnOff(false);
         InventoryViewImage.enabled = true;
     }
 
-    public void ViewOnOff()
+    public void ViewOnOff(bool onOff)
     {
-        InventoryView.SetActive(!ViewActive);
-        ViewActive = !ViewActive;
+        InventoryView.SetActive(onOff);
+        ViewActive = onOff;
     }
 
     public bool ToSlot(Item item)
