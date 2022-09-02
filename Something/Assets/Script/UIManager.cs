@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
@@ -10,6 +11,8 @@ public class UIManager : MonoBehaviour
     private PauseMenuController _PauseMenuController;
     [SerializeField]
     private InventoryController _InventoryController;
+    [SerializeField]
+    private Image Background;
 
     private bool _menuActive;
     private IMenu _activatingMenu;
@@ -20,6 +23,8 @@ public class UIManager : MonoBehaviour
         _menuActive = false;
         _activatingMenu = null;
         _recentInputKey = KeyCode.None;
+
+        StartCoroutine(FadeIn(5));
     }
 
     public void MenuControl(KeyCode keyDownCode)
@@ -80,5 +85,37 @@ public class UIManager : MonoBehaviour
         _activatingMenu = (IMenu)_PauseMenuController;
         _recentInputKey = KeyCode.Escape;
         _GameManager.ActivateGame(false);
+    }
+
+    IEnumerator FadeIn(float time)
+    {
+        float plusValue = 1 / time;
+        float alphaValue = Background.color.a;
+        Color color = new Color(0f, 0f, 0f, Background.color.a);
+
+        while (0 < Background.color.a)
+        {
+            alphaValue -= plusValue * Time.deltaTime;
+            color.a = alphaValue;
+            Background.color = color;
+
+            yield return new WaitForFixedUpdate();
+        }
+    }
+
+    IEnumerator FadeOut(float time)
+    {
+        float plusValue = 1 / time;
+        float alphaValue = Background.color.a;
+        Color color = new Color(0f, 0f, 0f, Background.color.a);
+
+        while (Background.color.a < 1)
+        {
+            alphaValue += plusValue * Time.deltaTime;
+            color.a = alphaValue;
+            Background.color = color;
+
+            yield return new WaitForFixedUpdate();
+        }
     }
 }

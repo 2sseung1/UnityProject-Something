@@ -4,9 +4,6 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    [SerializeField]
-    private GameManager _GameManager;
-
     private PlayerInput _input;
     private PlayerRotate _rotate;
     private PlayerMove _move;
@@ -18,7 +15,7 @@ public class PlayerController : MonoBehaviour
         _move = GetComponent<PlayerMove>();
     }
 
-    void FixedUpdate()
+    void Update()
     {
         _rotate.Rotate(_input.MouseX, _input.MouseY);
         _move.Move(_input.InputX, _input.InputY);

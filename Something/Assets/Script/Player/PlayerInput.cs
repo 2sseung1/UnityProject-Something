@@ -24,7 +24,7 @@ public class PlayerInput : MonoBehaviour
         MouseX = 0f;
         MouseY = 0f;
 
-        UIKeyDown.AddListener(UIManager.MenuControl);
+        // UIKeyDown.AddListener(UIManager.MenuControl);
     }
 
     void Update()
