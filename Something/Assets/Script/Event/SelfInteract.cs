@@ -13,4 +13,5 @@ public class SelfInteract : MonoBehaviour
         target.Interacte(transform.position);
         GameObject.Destroy(gameObject);
     }
+
 }

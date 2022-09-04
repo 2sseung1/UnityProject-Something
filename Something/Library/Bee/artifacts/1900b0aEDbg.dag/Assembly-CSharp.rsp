@@ -446,10 +446,11 @@
 "Assets/MyAsset/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs"
 "Assets/Script/CursorController.cs"
 "Assets/Script/Door.cs"
-"Assets/Script/DoorData.cs"
 "Assets/Script/Enemy/EnemyAI.cs"
 "Assets/Script/Enemy/EnemyFieldOfView.cs"
+"Assets/Script/Event/LightControl.cs"
 "Assets/Script/Event/RainControl.cs"
+"Assets/Script/Event/SelfDoorLock.cs"
 "Assets/Script/Event/SelfInteract.cs"
 "Assets/Script/GameManager.cs"
 "Assets/Script/IInteractionObject.cs"
@@ -459,6 +460,7 @@
 "Assets/Script/InteractionUI.cs"
 "Assets/Script/InventoryController.cs"
 "Assets/Script/InventorySlot.cs"
+"Assets/Script/Item/DoorData.cs"
 "Assets/Script/Item/Item.cs"
 "Assets/Script/Item/Key.cs"
 "Assets/Script/Item/KeyData.cs"
@@ -469,6 +471,7 @@
 "Assets/Script/Player/PlayerInteracte.cs"
 "Assets/Script/Player/PlayerMove.cs"
 "Assets/Script/Player/PlayerRotate.cs"
+"Assets/Script/PopUpMessage.cs"
 "Assets/Script/UIManager.cs"
 -langversion:9.0
 

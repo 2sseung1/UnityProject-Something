@@ -9,14 +9,6 @@ public class CursorController : MonoBehaviour
     [SerializeField]
     private Sprite Icon;
 
-    void Awake()
-    {
-        Cursor.visible = false;
-        Cursor.lockState = CursorLockMode.Locked;
-
-        IsControlling = false;
-    }
-
     public void GetControl(bool control)
     {
         Cursor.visible = control;

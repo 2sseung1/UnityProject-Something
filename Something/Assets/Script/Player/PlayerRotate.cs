@@ -13,8 +13,8 @@ public class PlayerRotate : MonoBehaviour
     [SerializeField]
     private float MaxLimitAngleX;
 
-    private float _angleX = 0f;
-    private float _angleY = 0f;
+    public float _angleX = 0f;
+    public float _angleY = 0f;
 
     public void Rotate(float mouseX, float mouseY)
     {

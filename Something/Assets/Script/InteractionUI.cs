@@ -44,6 +44,10 @@ public class InteractionUI : MonoBehaviour
                     case Door.State.Close:
                         _interactionMessage.text = Data.GetOpenDoorMessage;
                         break;
+
+                    case Door.State.Lock:
+                        _interactionMessage.text = Data.GetLockDoorMessage;
+                        break;
                 }
             }
             else if (_checker.HitInfo.collider.tag == "Item")

@@ -7,22 +7,24 @@ public class Door : MonoBehaviour, IInteractionObject
     public enum State
     {
         Open,
-        Close
+        Close,
+        Lock
     }
 
     public State GetDoorState { get { return DoorState; } }
 
-    [SerializeField]
-    private State DoorState;
+    public State DoorState;
     [SerializeField]
     private float RotateSpeed;
+    [SerializeField]
+    private DoorData _data;
 
     private float _angleY;
     private float _initialAngleY;
     private float _openForwardMinAngleY;
     private float _openBackwardMaxAngleY;
     private WaitForFixedUpdate _waitForFixedUpdate;
-    private DoorData _data;
+    private AudioSource _audio;
 
     void Awake()
     {
@@ -31,6 +33,7 @@ public class Door : MonoBehaviour, IInteractionObject
         _openForwardMinAngleY = _angleY - 90;
         _openBackwardMaxAngleY = _angleY + 90;
         _waitForFixedUpdate = new WaitForFixedUpdate();
+        _audio = GetComponent<AudioSource>();
     }
 
     public void Interacte(Vector3 interactorPosition)
@@ -43,6 +46,13 @@ public class Door : MonoBehaviour, IInteractionObject
 
             case State.Close:
                 Open(interactorPosition);
+                _audio.clip = _data.OpenSound;
+                _audio.Play();
+                break;
+
+            case State.Lock:
+                _audio.clip = _data.LockSound;
+                _audio.Play();
                 break;
         }
     }
@@ -104,6 +114,9 @@ public class Door : MonoBehaviour, IInteractionObject
 
             yield return _waitForFixedUpdate;
         }
+
+        _audio.clip = _data.CloseSound;
+        _audio.Play();
     }
 
     IEnumerator CloseBackward()
@@ -116,5 +129,8 @@ public class Door : MonoBehaviour, IInteractionObject
 
             yield return _waitForFixedUpdate;
         }
+
+        _audio.clip = _data.CloseSound;
+        _audio.Play();
     }
 }

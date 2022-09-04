@@ -21,7 +21,7 @@ public class InventoryController : MonoBehaviour, IMenu
     void Awake()
     {
         _slot = Slots.GetComponentsInChildren<InventorySlot>();
-        _slotCount = 15;
+        _slotCount = 12;
         _nextSlotIndex = 0;
     }
 

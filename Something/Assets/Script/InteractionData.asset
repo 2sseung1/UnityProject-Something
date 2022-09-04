@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d73687f95ff20f34993922fb755d64b0, type: 3}
   m_Name: InteractionData
   m_EditorClassIdentifier: 
-  IdleAim: {fileID: 21300000, guid: 8981fc747e2af9b4d915fc17e0402788, type: 3}
-  DoorAim: {fileID: 21300000, guid: 49bebf6efbe82b04183ba80c6e06d92f, type: 3}
-  PickUpItemAim: {fileID: 21300000, guid: 3a8788814f8110c41a115719983c65c2, type: 3}
+  IdleAim: {fileID: 21300000, guid: 0c243e506ab2a5247a0f84b4b01faf26, type: 3}
+  DoorAim: {fileID: 21300000, guid: df622439f9802f64dafc851ef48a66c8, type: 3}
+  PickUpItemAim: {fileID: 21300000, guid: f9c723568ce99ad458a64a5105c1f52a, type: 3}
   OpenDoorMessage: "[E] \uC5F4\uAE30"
   CloseDoorMessage: "[E] \uB2EB\uAE30"
+  LockDoorMessage: "\uC7A0\uAE34 \uBB38\uC785\uB2C8\uB2E4."
   PickUpItemMessage: "[E] \uC90D\uAE30"

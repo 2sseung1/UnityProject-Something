@@ -11,6 +11,7 @@ public class InteractionData : ScriptableObject
 
     public string GetOpenDoorMessage { get { return OpenDoorMessage; } }
     public string GetCloseDoorMessage { get { return CloseDoorMessage; } }
+    public string GetLockDoorMessage { get { return LockDoorMessage; } }
     public string GetPickUpItemMessage { get { return PickUpItemMessage; } }
 
     [SerializeField]
@@ -24,6 +25,8 @@ public class InteractionData : ScriptableObject
     private string OpenDoorMessage;
     [SerializeField]
     private string CloseDoorMessage;
+    [SerializeField]
+    private string LockDoorMessage;
     [SerializeField]
     private string PickUpItemMessage;
 }

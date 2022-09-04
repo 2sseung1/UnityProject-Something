@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class UIManager : MonoBehaviour
 {
@@ -13,6 +14,8 @@ public class UIManager : MonoBehaviour
     private InventoryController _InventoryController;
     [SerializeField]
     private Image Background;
+    [SerializeField]
+    private TextMeshProUGUI PopUpMessager;
 
     private bool _menuActive;
     private IMenu _activatingMenu;
@@ -87,7 +90,7 @@ public class UIManager : MonoBehaviour
         _GameManager.ActivateGame(false);
     }
 
-    IEnumerator FadeIn(float time)
+    public IEnumerator FadeIn(float time)
     {
         float plusValue = 1 / time;
         float alphaValue = Background.color.a;
@@ -103,7 +106,7 @@ public class UIManager : MonoBehaviour
         }
     }
 
-    IEnumerator FadeOut(float time)
+    public IEnumerator FadeOut(float time)
     {
         float plusValue = 1 / time;
         float alphaValue = Background.color.a;
@@ -117,5 +120,48 @@ public class UIManager : MonoBehaviour
 
             yield return new WaitForFixedUpdate();
         }
+    }
+
+    public void StartPopUp(float time, string text)
+    {
+        StartCoroutine(PopUpMessageFadeOut(time, text));
+    }
+
+    private IEnumerator PopUpMessageFadeIn(float time)
+    {
+        float plusValue = 1 / time;
+        float alphaValue = PopUpMessager.color.a;
+        Color color = new Color(1f, 1f, 1f, PopUpMessager.color.a);
+
+        while (0 < PopUpMessager.color.a)
+        {
+            alphaValue -= plusValue * Time.deltaTime;
+            color.a = alphaValue;
+            PopUpMessager.color = color;
+
+            yield return new WaitForFixedUpdate();
+        }
+
+        PopUpMessager.text = "";
+    }
+
+    private IEnumerator PopUpMessageFadeOut(float time, string text)
+    {
+        PopUpMessager.text = text;
+
+        float plusValue = 1 / time;
+        float alphaValue = PopUpMessager.color.a;
+        Color color = new Color(1f, 1f, 1f, PopUpMessager.color.a);
+
+        while (PopUpMessager.color.a < 1)
+        {
+            alphaValue += plusValue * Time.deltaTime;
+            color.a = alphaValue;
+            PopUpMessager.color = color;
+
+            yield return new WaitForFixedUpdate();
+        }
+
+        StartCoroutine(PopUpMessageFadeIn(time));
     }
 }
